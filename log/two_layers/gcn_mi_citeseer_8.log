@@ -1,0 +1,1008 @@
+
+		{"dataset": "citeseer", "weight_decay": 0.0005, "hidden1": 16, "dropout": 0.5, "model": "gcn_mi", "train_ratio": 20, "epochs": 500}
+citeseer
+{'dataset': 'citeseer', 'model': 'gcn_mi', 'learning_rate': 0.01, 'epochs': 500, 'hidden1': 16, 'dropout': 0.5, 'weight_decay': 0.0005, 'early_stopping': 200, 'train_ratio': 20, 'repeat': 8}
+500 500
+Epoch: 0001 train_loss= 1.79666 train_acc= 0.16667 val_loss= 1.80111 val_acc= 0.44200 time= 0.04908
+Test results: cost= 1.80099 accuracy= 0.49100 time= 0.01277
+Epoch: 0002 train_loss= 1.78026 train_acc= 0.51667 val_loss= 1.78895 val_acc= 0.56000 time= 0.02663
+Test results: cost= 1.78872 accuracy= 0.58100 time= 0.01276
+Epoch: 0003 train_loss= 1.76015 train_acc= 0.61667 val_loss= 1.77772 val_acc= 0.56000 time= 0.02645
+Test results: cost= 1.77710 accuracy= 0.58600 time= 0.01300
+Epoch: 0004 train_loss= 1.74004 train_acc= 0.64167 val_loss= 1.76810 val_acc= 0.56600 time= 0.02531
+Test results: cost= 1.76724 accuracy= 0.59300 time= 0.01279
+Epoch: 0005 train_loss= 1.71769 train_acc= 0.67500 val_loss= 1.75877 val_acc= 0.59800 time= 0.02557
+Test results: cost= 1.75765 accuracy= 0.60900 time= 0.01285
+Epoch: 0006 train_loss= 1.69463 train_acc= 0.64167 val_loss= 1.74938 val_acc= 0.62200 time= 0.02602
+Test results: cost= 1.74804 accuracy= 0.62600 time= 0.01248
+Epoch: 0007 train_loss= 1.67557 train_acc= 0.69167 val_loss= 1.74000 val_acc= 0.64200 time= 0.02549
+Test results: cost= 1.73842 accuracy= 0.64600 time= 0.01284
+Epoch: 0008 train_loss= 1.64899 train_acc= 0.70833 val_loss= 1.73037 val_acc= 0.65000 time= 0.02558
+Test results: cost= 1.72859 accuracy= 0.66000 time= 0.01295
+Epoch: 0009 train_loss= 1.62217 train_acc= 0.68333 val_loss= 1.72077 val_acc= 0.66600 time= 0.02633
+Test results: cost= 1.71866 accuracy= 0.66700 time= 0.01278
+Epoch: 0010 train_loss= 1.58956 train_acc= 0.67500 val_loss= 1.71095 val_acc= 0.67400 time= 0.02574
+Test results: cost= 1.70836 accuracy= 0.66500 time= 0.01271
+Epoch: 0011 train_loss= 1.55439 train_acc= 0.77500 val_loss= 1.70103 val_acc= 0.68000 time= 0.02534
+Test results: cost= 1.69780 accuracy= 0.66800 time= 0.01281
+Epoch: 0012 train_loss= 1.52445 train_acc= 0.81667 val_loss= 1.69089 val_acc= 0.68600 time= 0.02540
+Test results: cost= 1.68708 accuracy= 0.67100 time= 0.01262
+Epoch: 0013 train_loss= 1.49874 train_acc= 0.74167 val_loss= 1.68052 val_acc= 0.68200 time= 0.02584
+Test results: cost= 1.67611 accuracy= 0.66800 time= 0.01252
+Epoch: 0014 train_loss= 1.46061 train_acc= 0.78333 val_loss= 1.66976 val_acc= 0.68000 time= 0.02638
+Test results: cost= 1.66477 accuracy= 0.67100 time= 0.01277
+Epoch: 0015 train_loss= 1.43019 train_acc= 0.79167 val_loss= 1.65873 val_acc= 0.68400 time= 0.02560
+Test results: cost= 1.65311 accuracy= 0.67100 time= 0.01290
+Epoch: 0016 train_loss= 1.39533 train_acc= 0.81667 val_loss= 1.64724 val_acc= 0.67800 time= 0.02545
+Test results: cost= 1.64087 accuracy= 0.67400 time= 0.01286
+Epoch: 0017 train_loss= 1.37369 train_acc= 0.82500 val_loss= 1.63554 val_acc= 0.67800 time= 0.02564
+Test results: cost= 1.62831 accuracy= 0.67600 time= 0.01291
+Epoch: 0018 train_loss= 1.30393 train_acc= 0.81667 val_loss= 1.62332 val_acc= 0.67800 time= 0.02595
+Test results: cost= 1.61538 accuracy= 0.67800 time= 0.01291
+Epoch: 0019 train_loss= 1.26501 train_acc= 0.79167 val_loss= 1.61075 val_acc= 0.67600 time= 0.02566
+Test results: cost= 1.60229 accuracy= 0.68000 time= 0.01291
+Epoch: 0020 train_loss= 1.24146 train_acc= 0.82500 val_loss= 1.59784 val_acc= 0.67800 time= 0.02584
+Test results: cost= 1.58904 accuracy= 0.68200 time= 0.01287
+Epoch: 0021 train_loss= 1.22288 train_acc= 0.80000 val_loss= 1.58470 val_acc= 0.68000 time= 0.02574
+Test results: cost= 1.57554 accuracy= 0.68500 time= 0.01272
+Epoch: 0022 train_loss= 1.14611 train_acc= 0.82500 val_loss= 1.57098 val_acc= 0.68200 time= 0.02573
+Test results: cost= 1.56166 accuracy= 0.68800 time= 0.01265
+Epoch: 0023 train_loss= 1.14428 train_acc= 0.80833 val_loss= 1.55675 val_acc= 0.68800 time= 0.02575
+Test results: cost= 1.54747 accuracy= 0.69400 time= 0.01288
+Epoch: 0024 train_loss= 1.06634 train_acc= 0.83333 val_loss= 1.54258 val_acc= 0.69000 time= 0.02530
+Test results: cost= 1.53350 accuracy= 0.69500 time= 0.01255
+Epoch: 0025 train_loss= 1.06701 train_acc= 0.81667 val_loss= 1.52849 val_acc= 0.69200 time= 0.02597
+Test results: cost= 1.51974 accuracy= 0.69500 time= 0.01296
+Epoch: 0026 train_loss= 1.04050 train_acc= 0.85833 val_loss= 1.51456 val_acc= 0.69400 time= 0.02533
+Test results: cost= 1.50627 accuracy= 0.69600 time= 0.01276
+Epoch: 0027 train_loss= 1.01168 train_acc= 0.80000 val_loss= 1.50139 val_acc= 0.69600 time= 0.02541
+Test results: cost= 1.49345 accuracy= 0.70200 time= 0.01276
+Epoch: 0028 train_loss= 1.01862 train_acc= 0.84167 val_loss= 1.48863 val_acc= 0.69800 time= 0.02562
+Test results: cost= 1.48112 accuracy= 0.69900 time= 0.01272
+Epoch: 0029 train_loss= 0.96178 train_acc= 0.83333 val_loss= 1.47626 val_acc= 0.70200 time= 0.02571
+Test results: cost= 1.46946 accuracy= 0.70300 time= 0.01287
+Epoch: 0030 train_loss= 0.88971 train_acc= 0.89167 val_loss= 1.46438 val_acc= 0.69800 time= 0.02567
+Test results: cost= 1.45813 accuracy= 0.70500 time= 0.01273
+Epoch: 0031 train_loss= 0.89894 train_acc= 0.88333 val_loss= 1.45281 val_acc= 0.69600 time= 0.02600
+Test results: cost= 1.44742 accuracy= 0.70800 time= 0.01282
+Epoch: 0032 train_loss= 0.86081 train_acc= 0.88333 val_loss= 1.44242 val_acc= 0.69200 time= 0.02517
+Test results: cost= 1.43734 accuracy= 0.70800 time= 0.01278
+Epoch: 0033 train_loss= 0.82081 train_acc= 0.92500 val_loss= 1.43249 val_acc= 0.69000 time= 0.02527
+Test results: cost= 1.42759 accuracy= 0.70700 time= 0.01264
+Epoch: 0034 train_loss= 0.80684 train_acc= 0.90833 val_loss= 1.42276 val_acc= 0.68600 time= 0.02590
+Test results: cost= 1.41813 accuracy= 0.70800 time= 0.01271
+Epoch: 0035 train_loss= 0.79948 train_acc= 0.90000 val_loss= 1.41395 val_acc= 0.68800 time= 0.02630
+Test results: cost= 1.40964 accuracy= 0.70500 time= 0.01297
+Epoch: 0036 train_loss= 0.80468 train_acc= 0.90833 val_loss= 1.40571 val_acc= 0.68600 time= 0.02550
+Test results: cost= 1.40156 accuracy= 0.70500 time= 0.01291
+Epoch: 0037 train_loss= 0.74032 train_acc= 0.94167 val_loss= 1.39888 val_acc= 0.68600 time= 0.02587
+Test results: cost= 1.39421 accuracy= 0.71100 time= 0.01293
+Epoch: 0038 train_loss= 0.74172 train_acc= 0.92500 val_loss= 1.39302 val_acc= 0.69000 time= 0.02608
+Test results: cost= 1.38773 accuracy= 0.70900 time= 0.01285
+Epoch: 0039 train_loss= 0.74892 train_acc= 0.91667 val_loss= 1.38698 val_acc= 0.69400 time= 0.02575
+Test results: cost= 1.38119 accuracy= 0.71100 time= 0.01284
+Epoch: 0040 train_loss= 0.66611 train_acc= 0.95833 val_loss= 1.38115 val_acc= 0.69400 time= 0.02550
+Test results: cost= 1.37559 accuracy= 0.71200 time= 0.01283
+Epoch: 0041 train_loss= 0.67599 train_acc= 0.95833 val_loss= 1.37640 val_acc= 0.69600 time= 0.02578
+Test results: cost= 1.37114 accuracy= 0.71000 time= 0.01281
+Epoch: 0042 train_loss= 0.64811 train_acc= 0.94167 val_loss= 1.37235 val_acc= 0.69400 time= 0.02540
+Test results: cost= 1.36702 accuracy= 0.70800 time= 0.01265
+Epoch: 0043 train_loss= 0.65728 train_acc= 0.94167 val_loss= 1.36837 val_acc= 0.69800 time= 0.02575
+Test results: cost= 1.36274 accuracy= 0.70900 time= 0.01246
+Epoch: 0044 train_loss= 0.68414 train_acc= 0.95833 val_loss= 1.36598 val_acc= 0.69600 time= 0.02556
+Test results: cost= 1.35928 accuracy= 0.71100 time= 0.01285
+Epoch: 0045 train_loss= 0.66851 train_acc= 0.94167 val_loss= 1.36279 val_acc= 0.70200 time= 0.02556
+Test results: cost= 1.35472 accuracy= 0.71200 time= 0.01282
+Epoch: 0046 train_loss= 0.62670 train_acc= 0.95833 val_loss= 1.35880 val_acc= 0.70400 time= 0.02586
+Test results: cost= 1.34926 accuracy= 0.71700 time= 0.01290
+Epoch: 0047 train_loss= 0.60548 train_acc= 0.93333 val_loss= 1.35487 val_acc= 0.70400 time= 0.02610
+Test results: cost= 1.34401 accuracy= 0.72000 time= 0.01279
+Epoch: 0048 train_loss= 0.60669 train_acc= 0.95000 val_loss= 1.35028 val_acc= 0.70600 time= 0.02615
+Test results: cost= 1.33819 accuracy= 0.71500 time= 0.01255
+Epoch: 0049 train_loss= 0.62186 train_acc= 0.95000 val_loss= 1.34582 val_acc= 0.70600 time= 0.02555
+Test results: cost= 1.33283 accuracy= 0.71600 time= 0.01256
+Epoch: 0050 train_loss= 0.59573 train_acc= 0.96667 val_loss= 1.33980 val_acc= 0.70200 time= 0.02610
+Test results: cost= 1.32641 accuracy= 0.71400 time= 0.01288
+Epoch: 0051 train_loss= 0.60815 train_acc= 0.95833 val_loss= 1.33443 val_acc= 0.70000 time= 0.02584
+Test results: cost= 1.32101 accuracy= 0.71500 time= 0.01281
+Epoch: 0052 train_loss= 0.53801 train_acc= 0.96667 val_loss= 1.32813 val_acc= 0.70000 time= 0.02578
+Test results: cost= 1.31537 accuracy= 0.71600 time= 0.01267
+Epoch: 0053 train_loss= 0.57100 train_acc= 0.95000 val_loss= 1.32357 val_acc= 0.70200 time= 0.02568
+Test results: cost= 1.31053 accuracy= 0.71400 time= 0.01300
+Epoch: 0054 train_loss= 0.61944 train_acc= 0.92500 val_loss= 1.31813 val_acc= 0.70200 time= 0.02541
+Test results: cost= 1.30523 accuracy= 0.71500 time= 0.01279
+Epoch: 0055 train_loss= 0.57730 train_acc= 0.95000 val_loss= 1.31250 val_acc= 0.70400 time= 0.02549
+Test results: cost= 1.30018 accuracy= 0.71600 time= 0.01307
+Epoch: 0056 train_loss= 0.55928 train_acc= 0.95833 val_loss= 1.30534 val_acc= 0.70400 time= 0.02595
+Test results: cost= 1.29437 accuracy= 0.71600 time= 0.01286
+Epoch: 0057 train_loss= 0.56930 train_acc= 0.93333 val_loss= 1.29791 val_acc= 0.70200 time= 0.02566
+Test results: cost= 1.28779 accuracy= 0.71900 time= 0.01250
+Epoch: 0058 train_loss= 0.58777 train_acc= 0.95833 val_loss= 1.28994 val_acc= 0.70200 time= 0.02591
+Test results: cost= 1.28053 accuracy= 0.72100 time= 0.01295
+Epoch: 0059 train_loss= 0.49467 train_acc= 0.95000 val_loss= 1.28282 val_acc= 0.70800 time= 0.02633
+Test results: cost= 1.27391 accuracy= 0.72700 time= 0.01265
+Epoch: 0060 train_loss= 0.49587 train_acc= 0.97500 val_loss= 1.27538 val_acc= 0.70800 time= 0.02578
+Test results: cost= 1.26677 accuracy= 0.72900 time= 0.01288
+Epoch: 0061 train_loss= 0.50268 train_acc= 0.96667 val_loss= 1.26909 val_acc= 0.70400 time= 0.02523
+Test results: cost= 1.26020 accuracy= 0.72900 time= 0.01286
+Epoch: 0062 train_loss= 0.54340 train_acc= 0.95000 val_loss= 1.26075 val_acc= 0.70400 time= 0.02578
+Test results: cost= 1.25246 accuracy= 0.73100 time= 0.01318
+Epoch: 0063 train_loss= 0.49545 train_acc= 0.97500 val_loss= 1.25310 val_acc= 0.70400 time= 0.02630
+Test results: cost= 1.24521 accuracy= 0.73400 time= 0.01252
+Epoch: 0064 train_loss= 0.51722 train_acc= 0.95833 val_loss= 1.24498 val_acc= 0.71000 time= 0.02585
+Test results: cost= 1.23806 accuracy= 0.73200 time= 0.01312
+Epoch: 0065 train_loss= 0.47315 train_acc= 0.96667 val_loss= 1.23711 val_acc= 0.70800 time= 0.02598
+Test results: cost= 1.23089 accuracy= 0.73100 time= 0.01304
+Epoch: 0066 train_loss= 0.45947 train_acc= 0.96667 val_loss= 1.23071 val_acc= 0.70800 time= 0.02628
+Test results: cost= 1.22461 accuracy= 0.73200 time= 0.01282
+Epoch: 0067 train_loss= 0.53675 train_acc= 0.93333 val_loss= 1.22661 val_acc= 0.70600 time= 0.02595
+Test results: cost= 1.22036 accuracy= 0.73200 time= 0.01286
+Epoch: 0068 train_loss= 0.49305 train_acc= 0.95833 val_loss= 1.22337 val_acc= 0.70200 time= 0.02599
+Test results: cost= 1.21625 accuracy= 0.73200 time= 0.01303
+Epoch: 0069 train_loss= 0.49648 train_acc= 0.97500 val_loss= 1.22090 val_acc= 0.70200 time= 0.02569
+Test results: cost= 1.21303 accuracy= 0.72800 time= 0.01285
+Epoch: 0070 train_loss= 0.48296 train_acc= 0.95833 val_loss= 1.21865 val_acc= 0.70200 time= 0.02525
+Test results: cost= 1.21014 accuracy= 0.72800 time= 0.01292
+Epoch: 0071 train_loss= 0.46982 train_acc= 0.98333 val_loss= 1.21736 val_acc= 0.70200 time= 0.02548
+Test results: cost= 1.20769 accuracy= 0.73000 time= 0.01266
+Epoch: 0072 train_loss= 0.48320 train_acc= 0.97500 val_loss= 1.21468 val_acc= 0.71000 time= 0.02576
+Test results: cost= 1.20468 accuracy= 0.73000 time= 0.01268
+Epoch: 0073 train_loss= 0.47522 train_acc= 0.96667 val_loss= 1.21323 val_acc= 0.70600 time= 0.02548
+Test results: cost= 1.20266 accuracy= 0.73100 time= 0.01300
+Epoch: 0074 train_loss= 0.48311 train_acc= 0.95833 val_loss= 1.21137 val_acc= 0.70800 time= 0.02563
+Test results: cost= 1.20040 accuracy= 0.73200 time= 0.01276
+Epoch: 0075 train_loss= 0.46594 train_acc= 0.95000 val_loss= 1.21040 val_acc= 0.71000 time= 0.02582
+Test results: cost= 1.19885 accuracy= 0.73200 time= 0.01269
+Epoch: 0076 train_loss= 0.43406 train_acc= 0.96667 val_loss= 1.20873 val_acc= 0.70800 time= 0.02518
+Test results: cost= 1.19721 accuracy= 0.73100 time= 0.01285
+Epoch: 0077 train_loss= 0.48703 train_acc= 0.93333 val_loss= 1.20705 val_acc= 0.70400 time= 0.02614
+Test results: cost= 1.19501 accuracy= 0.73100 time= 0.01301
+Epoch: 0078 train_loss= 0.43437 train_acc= 0.94167 val_loss= 1.20464 val_acc= 0.70000 time= 0.02547
+Test results: cost= 1.19222 accuracy= 0.73100 time= 0.01309
+Epoch: 0079 train_loss= 0.45216 train_acc= 0.95833 val_loss= 1.20190 val_acc= 0.69800 time= 0.02552
+Test results: cost= 1.18960 accuracy= 0.73000 time= 0.01234
+Epoch: 0080 train_loss= 0.42600 train_acc= 0.97500 val_loss= 1.19735 val_acc= 0.70000 time= 0.02612
+Test results: cost= 1.18592 accuracy= 0.73400 time= 0.01269
+Epoch: 0081 train_loss= 0.42478 train_acc= 0.95833 val_loss= 1.19206 val_acc= 0.70600 time= 0.02557
+Test results: cost= 1.18156 accuracy= 0.73200 time= 0.01265
+Epoch: 0082 train_loss= 0.51350 train_acc= 0.93333 val_loss= 1.18818 val_acc= 0.70400 time= 0.02571
+Test results: cost= 1.17835 accuracy= 0.73300 time= 0.01262
+Epoch: 0083 train_loss= 0.45478 train_acc= 0.96667 val_loss= 1.18422 val_acc= 0.70400 time= 0.02537
+Test results: cost= 1.17527 accuracy= 0.73400 time= 0.01281
+Epoch: 0084 train_loss= 0.49201 train_acc= 0.93333 val_loss= 1.18092 val_acc= 0.70400 time= 0.02537
+Test results: cost= 1.17284 accuracy= 0.73600 time= 0.01291
+Epoch: 0085 train_loss= 0.47232 train_acc= 0.94167 val_loss= 1.17866 val_acc= 0.70400 time= 0.02590
+Test results: cost= 1.17077 accuracy= 0.73400 time= 0.01273
+Epoch: 0086 train_loss= 0.46131 train_acc= 0.95000 val_loss= 1.17555 val_acc= 0.70600 time= 0.02587
+Test results: cost= 1.16806 accuracy= 0.73000 time= 0.01297
+Epoch: 0087 train_loss= 0.47735 train_acc= 0.95000 val_loss= 1.17315 val_acc= 0.70800 time= 0.02573
+Test results: cost= 1.16573 accuracy= 0.72800 time= 0.01287
+Epoch: 0088 train_loss= 0.41562 train_acc= 0.97500 val_loss= 1.17071 val_acc= 0.71000 time= 0.02645
+Test results: cost= 1.16360 accuracy= 0.72900 time= 0.01266
+Epoch: 0089 train_loss= 0.42269 train_acc= 0.95833 val_loss= 1.16846 val_acc= 0.71200 time= 0.02524
+Test results: cost= 1.16167 accuracy= 0.72800 time= 0.01280
+Epoch: 0090 train_loss= 0.44323 train_acc= 0.95833 val_loss= 1.16660 val_acc= 0.71000 time= 0.02611
+Test results: cost= 1.16001 accuracy= 0.73100 time= 0.01250
+Epoch: 0091 train_loss= 0.44834 train_acc= 0.95833 val_loss= 1.16652 val_acc= 0.71000 time= 0.02567
+Test results: cost= 1.15906 accuracy= 0.73100 time= 0.01248
+Epoch: 0092 train_loss= 0.44264 train_acc= 0.95833 val_loss= 1.16578 val_acc= 0.71000 time= 0.02566
+Test results: cost= 1.15821 accuracy= 0.72700 time= 0.01293
+Epoch: 0093 train_loss= 0.43902 train_acc= 0.95833 val_loss= 1.16520 val_acc= 0.70800 time= 0.02562
+Test results: cost= 1.15747 accuracy= 0.73000 time= 0.01296
+Epoch: 0094 train_loss= 0.40007 train_acc= 0.97500 val_loss= 1.16402 val_acc= 0.70800 time= 0.02558
+Test results: cost= 1.15660 accuracy= 0.73000 time= 0.01284
+Epoch: 0095 train_loss= 0.45064 train_acc= 0.95833 val_loss= 1.16225 val_acc= 0.71000 time= 0.02599
+Test results: cost= 1.15538 accuracy= 0.72900 time= 0.01276
+Epoch: 0096 train_loss= 0.43936 train_acc= 0.94167 val_loss= 1.15946 val_acc= 0.70800 time= 0.02626
+Test results: cost= 1.15362 accuracy= 0.72800 time= 0.01283
+Epoch: 0097 train_loss= 0.40437 train_acc= 0.97500 val_loss= 1.15681 val_acc= 0.71000 time= 0.02626
+Test results: cost= 1.15226 accuracy= 0.73000 time= 0.01276
+Epoch: 0098 train_loss= 0.43415 train_acc= 0.95833 val_loss= 1.15382 val_acc= 0.71000 time= 0.02590
+Test results: cost= 1.15057 accuracy= 0.73200 time= 0.01284
+Epoch: 0099 train_loss= 0.41587 train_acc= 0.96667 val_loss= 1.15377 val_acc= 0.70800 time= 0.02603
+Test results: cost= 1.15045 accuracy= 0.73400 time= 0.01272
+Epoch: 0100 train_loss= 0.41192 train_acc= 0.95833 val_loss= 1.15397 val_acc= 0.70600 time= 0.02624
+Test results: cost= 1.15026 accuracy= 0.73500 time= 0.01289
+Epoch: 0101 train_loss= 0.40095 train_acc= 0.96667 val_loss= 1.15420 val_acc= 0.70200 time= 0.02548
+Test results: cost= 1.15029 accuracy= 0.73400 time= 0.01280
+Epoch: 0102 train_loss= 0.40934 train_acc= 0.96667 val_loss= 1.15458 val_acc= 0.70000 time= 0.02637
+Test results: cost= 1.15097 accuracy= 0.73200 time= 0.01250
+Epoch: 0103 train_loss= 0.42589 train_acc= 0.96667 val_loss= 1.15455 val_acc= 0.70200 time= 0.02565
+Test results: cost= 1.15133 accuracy= 0.73200 time= 0.01256
+Epoch: 0104 train_loss= 0.38354 train_acc= 0.97500 val_loss= 1.15520 val_acc= 0.70200 time= 0.02563
+Test results: cost= 1.15122 accuracy= 0.72900 time= 0.01275
+Epoch: 0105 train_loss= 0.44009 train_acc= 0.95000 val_loss= 1.15700 val_acc= 0.70000 time= 0.02562
+Test results: cost= 1.15172 accuracy= 0.72700 time= 0.01285
+Epoch: 0106 train_loss= 0.41323 train_acc= 0.96667 val_loss= 1.15741 val_acc= 0.70000 time= 0.02579
+Test results: cost= 1.15116 accuracy= 0.72800 time= 0.01275
+Epoch: 0107 train_loss= 0.40760 train_acc= 0.95833 val_loss= 1.15944 val_acc= 0.70000 time= 0.02585
+Test results: cost= 1.15150 accuracy= 0.73000 time= 0.01282
+Epoch: 0108 train_loss= 0.43670 train_acc= 0.94167 val_loss= 1.15990 val_acc= 0.69800 time= 0.02556
+Test results: cost= 1.15145 accuracy= 0.72400 time= 0.01295
+Epoch: 0109 train_loss= 0.39149 train_acc= 0.95833 val_loss= 1.15955 val_acc= 0.70200 time= 0.02569
+Test results: cost= 1.15098 accuracy= 0.72400 time= 0.01278
+Epoch: 0110 train_loss= 0.38221 train_acc= 0.97500 val_loss= 1.15781 val_acc= 0.70400 time= 0.02538
+Test results: cost= 1.14924 accuracy= 0.72600 time= 0.01273
+Epoch: 0111 train_loss= 0.41230 train_acc= 0.97500 val_loss= 1.15607 val_acc= 0.70400 time= 0.02610
+Test results: cost= 1.14779 accuracy= 0.72800 time= 0.01265
+Epoch: 0112 train_loss= 0.41965 train_acc= 0.96667 val_loss= 1.15275 val_acc= 0.70400 time= 0.02537
+Test results: cost= 1.14640 accuracy= 0.73000 time= 0.01268
+Epoch: 0113 train_loss= 0.38800 train_acc= 0.97500 val_loss= 1.14921 val_acc= 0.70400 time= 0.02576
+Test results: cost= 1.14497 accuracy= 0.73100 time= 0.01294
+Epoch: 0114 train_loss= 0.38727 train_acc= 0.95833 val_loss= 1.14633 val_acc= 0.70400 time= 0.02578
+Test results: cost= 1.14383 accuracy= 0.73200 time= 0.01275
+Epoch: 0115 train_loss= 0.39197 train_acc= 0.95000 val_loss= 1.14335 val_acc= 0.70000 time= 0.02533
+Test results: cost= 1.14255 accuracy= 0.73500 time= 0.01265
+Epoch: 0116 train_loss= 0.38634 train_acc= 0.95833 val_loss= 1.13978 val_acc= 0.70000 time= 0.02596
+Test results: cost= 1.14057 accuracy= 0.73500 time= 0.01289
+Epoch: 0117 train_loss= 0.37323 train_acc= 0.96667 val_loss= 1.13642 val_acc= 0.70200 time= 0.02510
+Test results: cost= 1.13900 accuracy= 0.73600 time= 0.01291
+Epoch: 0118 train_loss= 0.43379 train_acc= 0.95833 val_loss= 1.13452 val_acc= 0.70200 time= 0.02617
+Test results: cost= 1.13798 accuracy= 0.73700 time= 0.01288
+Epoch: 0119 train_loss= 0.40546 train_acc= 0.95833 val_loss= 1.13337 val_acc= 0.70200 time= 0.02574
+Test results: cost= 1.13766 accuracy= 0.73500 time= 0.01250
+Epoch: 0120 train_loss= 0.40899 train_acc= 0.95000 val_loss= 1.13332 val_acc= 0.70200 time= 0.02565
+Test results: cost= 1.13756 accuracy= 0.73500 time= 0.01333
+Epoch: 0121 train_loss= 0.39311 train_acc= 0.95833 val_loss= 1.13558 val_acc= 0.70400 time= 0.02526
+Test results: cost= 1.13837 accuracy= 0.73200 time= 0.01280
+Epoch: 0122 train_loss= 0.36301 train_acc= 0.96667 val_loss= 1.13916 val_acc= 0.71000 time= 0.02532
+Test results: cost= 1.14026 accuracy= 0.73100 time= 0.01323
+Epoch: 0123 train_loss= 0.36329 train_acc= 0.97500 val_loss= 1.14234 val_acc= 0.71000 time= 0.02635
+Test results: cost= 1.14196 accuracy= 0.72900 time= 0.01278
+Epoch: 0124 train_loss= 0.36555 train_acc= 0.95833 val_loss= 1.14541 val_acc= 0.70600 time= 0.02591
+Test results: cost= 1.14313 accuracy= 0.72800 time= 0.01305
+Epoch: 0125 train_loss= 0.39726 train_acc= 0.96667 val_loss= 1.14727 val_acc= 0.70800 time= 0.02587
+Test results: cost= 1.14467 accuracy= 0.72600 time= 0.01278
+Epoch: 0126 train_loss= 0.38751 train_acc= 0.98333 val_loss= 1.14904 val_acc= 0.71200 time= 0.02568
+Test results: cost= 1.14595 accuracy= 0.72600 time= 0.01289
+Epoch: 0127 train_loss= 0.40478 train_acc= 0.95833 val_loss= 1.14826 val_acc= 0.71000 time= 0.02590
+Test results: cost= 1.14579 accuracy= 0.72800 time= 0.01269
+Epoch: 0128 train_loss= 0.36493 train_acc= 0.97500 val_loss= 1.14622 val_acc= 0.71000 time= 0.02592
+Test results: cost= 1.14550 accuracy= 0.72800 time= 0.01272
+Epoch: 0129 train_loss= 0.43269 train_acc= 0.95000 val_loss= 1.14438 val_acc= 0.71000 time= 0.02556
+Test results: cost= 1.14510 accuracy= 0.72900 time= 0.01254
+Epoch: 0130 train_loss= 0.40146 train_acc= 0.95833 val_loss= 1.14170 val_acc= 0.71000 time= 0.02588
+Test results: cost= 1.14353 accuracy= 0.73100 time= 0.01297
+Epoch: 0131 train_loss= 0.33453 train_acc= 0.98333 val_loss= 1.13750 val_acc= 0.71000 time= 0.02593
+Test results: cost= 1.14079 accuracy= 0.73300 time= 0.01260
+Epoch: 0132 train_loss= 0.38125 train_acc= 0.95833 val_loss= 1.13343 val_acc= 0.70000 time= 0.02577
+Test results: cost= 1.13828 accuracy= 0.73300 time= 0.01275
+Epoch: 0133 train_loss= 0.34138 train_acc= 0.98333 val_loss= 1.13145 val_acc= 0.70000 time= 0.02589
+Test results: cost= 1.13688 accuracy= 0.72700 time= 0.01251
+Epoch: 0134 train_loss= 0.40434 train_acc= 0.96667 val_loss= 1.13028 val_acc= 0.70800 time= 0.02515
+Test results: cost= 1.13593 accuracy= 0.72900 time= 0.01303
+Epoch: 0135 train_loss= 0.38283 train_acc= 0.95833 val_loss= 1.12737 val_acc= 0.70800 time= 0.02551
+Test results: cost= 1.13374 accuracy= 0.72900 time= 0.01252
+Epoch: 0136 train_loss= 0.36970 train_acc= 0.95833 val_loss= 1.12675 val_acc= 0.71000 time= 0.02631
+Test results: cost= 1.13256 accuracy= 0.73100 time= 0.01283
+Epoch: 0137 train_loss= 0.35981 train_acc= 0.97500 val_loss= 1.12747 val_acc= 0.70800 time= 0.02643
+Test results: cost= 1.13216 accuracy= 0.73100 time= 0.01286
+Epoch: 0138 train_loss= 0.39602 train_acc= 0.95833 val_loss= 1.12865 val_acc= 0.70800 time= 0.02578
+Test results: cost= 1.13140 accuracy= 0.73100 time= 0.01273
+Epoch: 0139 train_loss= 0.36523 train_acc= 0.97500 val_loss= 1.13005 val_acc= 0.71000 time= 0.02585
+Test results: cost= 1.13072 accuracy= 0.73000 time= 0.01293
+Epoch: 0140 train_loss= 0.35740 train_acc= 0.95833 val_loss= 1.13124 val_acc= 0.71200 time= 0.02633
+Test results: cost= 1.13046 accuracy= 0.72700 time= 0.01271
+Epoch: 0141 train_loss= 0.37491 train_acc= 0.96667 val_loss= 1.13410 val_acc= 0.71000 time= 0.02588
+Test results: cost= 1.13144 accuracy= 0.72600 time= 0.01274
+Epoch: 0142 train_loss= 0.38199 train_acc= 0.96667 val_loss= 1.13783 val_acc= 0.71000 time= 0.02579
+Test results: cost= 1.13302 accuracy= 0.72600 time= 0.01301
+Epoch: 0143 train_loss= 0.32473 train_acc= 0.97500 val_loss= 1.14128 val_acc= 0.70600 time= 0.02528
+Test results: cost= 1.13489 accuracy= 0.72600 time= 0.01280
+Epoch: 0144 train_loss= 0.35578 train_acc= 0.97500 val_loss= 1.14441 val_acc= 0.70200 time= 0.02609
+Test results: cost= 1.13752 accuracy= 0.72400 time= 0.01255
+Epoch: 0145 train_loss= 0.35735 train_acc= 0.95833 val_loss= 1.14793 val_acc= 0.70200 time= 0.02583
+Test results: cost= 1.14153 accuracy= 0.72700 time= 0.01281
+Epoch: 0146 train_loss= 0.36360 train_acc= 0.95000 val_loss= 1.15294 val_acc= 0.70000 time= 0.02639
+Test results: cost= 1.14626 accuracy= 0.72400 time= 0.01286
+Epoch: 0147 train_loss= 0.34453 train_acc= 0.96667 val_loss= 1.15721 val_acc= 0.69600 time= 0.02558
+Test results: cost= 1.15110 accuracy= 0.72100 time= 0.01290
+Epoch: 0148 train_loss= 0.33213 train_acc= 0.96667 val_loss= 1.15941 val_acc= 0.69800 time= 0.02530
+Test results: cost= 1.15387 accuracy= 0.71600 time= 0.01282
+Epoch: 0149 train_loss= 0.38464 train_acc= 0.96667 val_loss= 1.15982 val_acc= 0.70000 time= 0.02617
+Test results: cost= 1.15537 accuracy= 0.71600 time= 0.01251
+Epoch: 0150 train_loss= 0.34620 train_acc= 0.96667 val_loss= 1.15838 val_acc= 0.70000 time= 0.02565
+Test results: cost= 1.15441 accuracy= 0.71700 time= 0.01257
+Epoch: 0151 train_loss= 0.37418 train_acc= 0.95833 val_loss= 1.15652 val_acc= 0.69800 time= 0.02648
+Test results: cost= 1.15244 accuracy= 0.71500 time= 0.01256
+Epoch: 0152 train_loss= 0.38653 train_acc= 0.95833 val_loss= 1.15464 val_acc= 0.70400 time= 0.02627
+Test results: cost= 1.15070 accuracy= 0.71700 time= 0.01255
+Epoch: 0153 train_loss= 0.37932 train_acc= 0.96667 val_loss= 1.15088 val_acc= 0.70400 time= 0.02540
+Test results: cost= 1.14730 accuracy= 0.71800 time= 0.01278
+Epoch: 0154 train_loss= 0.35901 train_acc= 0.97500 val_loss= 1.14575 val_acc= 0.69800 time= 0.02621
+Test results: cost= 1.14270 accuracy= 0.72300 time= 0.01280
+Epoch: 0155 train_loss= 0.34920 train_acc= 0.95833 val_loss= 1.14245 val_acc= 0.70000 time= 0.02540
+Test results: cost= 1.13892 accuracy= 0.72500 time= 0.01288
+Epoch: 0156 train_loss= 0.35349 train_acc= 0.96667 val_loss= 1.14117 val_acc= 0.69800 time= 0.02569
+Test results: cost= 1.13612 accuracy= 0.72400 time= 0.01248
+Epoch: 0157 train_loss= 0.35312 train_acc= 0.95833 val_loss= 1.14143 val_acc= 0.69400 time= 0.02572
+Test results: cost= 1.13455 accuracy= 0.72600 time= 0.01285
+Epoch: 0158 train_loss= 0.34307 train_acc= 0.97500 val_loss= 1.14202 val_acc= 0.69000 time= 0.02542
+Test results: cost= 1.13352 accuracy= 0.72700 time= 0.01293
+Epoch: 0159 train_loss= 0.37240 train_acc= 0.98333 val_loss= 1.14223 val_acc= 0.69000 time= 0.02561
+Test results: cost= 1.13316 accuracy= 0.72600 time= 0.01269
+Epoch: 0160 train_loss= 0.34017 train_acc= 0.97500 val_loss= 1.14320 val_acc= 0.69200 time= 0.02560
+Test results: cost= 1.13334 accuracy= 0.72400 time= 0.01282
+Epoch: 0161 train_loss= 0.36092 train_acc= 0.95833 val_loss= 1.14187 val_acc= 0.69200 time= 0.02626
+Test results: cost= 1.13275 accuracy= 0.72300 time= 0.01273
+Epoch: 0162 train_loss= 0.36350 train_acc= 0.95833 val_loss= 1.14092 val_acc= 0.69800 time= 0.02558
+Test results: cost= 1.13217 accuracy= 0.72500 time= 0.01282
+Epoch: 0163 train_loss= 0.34594 train_acc= 0.97500 val_loss= 1.14074 val_acc= 0.70200 time= 0.02568
+Test results: cost= 1.13175 accuracy= 0.72400 time= 0.01325
+Epoch: 0164 train_loss= 0.34707 train_acc= 0.96667 val_loss= 1.13954 val_acc= 0.70400 time= 0.02591
+Test results: cost= 1.13086 accuracy= 0.72500 time= 0.01302
+Epoch: 0165 train_loss= 0.37788 train_acc= 0.95000 val_loss= 1.14081 val_acc= 0.70400 time= 0.02602
+Test results: cost= 1.13085 accuracy= 0.72600 time= 0.01264
+Epoch: 0166 train_loss= 0.34790 train_acc= 0.95833 val_loss= 1.14254 val_acc= 0.71000 time= 0.02585
+Test results: cost= 1.13166 accuracy= 0.72500 time= 0.01264
+Epoch: 0167 train_loss= 0.32571 train_acc= 0.96667 val_loss= 1.14336 val_acc= 0.71000 time= 0.02600
+Test results: cost= 1.13346 accuracy= 0.72800 time= 0.01280
+Epoch: 0168 train_loss= 0.37223 train_acc= 0.96667 val_loss= 1.14447 val_acc= 0.71000 time= 0.02512
+Test results: cost= 1.13446 accuracy= 0.72600 time= 0.01255
+Epoch: 0169 train_loss= 0.34472 train_acc= 0.96667 val_loss= 1.14428 val_acc= 0.71200 time= 0.02546
+Test results: cost= 1.13497 accuracy= 0.72800 time= 0.01274
+Epoch: 0170 train_loss= 0.34128 train_acc= 0.95833 val_loss= 1.14377 val_acc= 0.71000 time= 0.02583
+Test results: cost= 1.13508 accuracy= 0.73200 time= 0.01266
+Epoch: 0171 train_loss= 0.33253 train_acc= 0.97500 val_loss= 1.14371 val_acc= 0.70600 time= 0.02569
+Test results: cost= 1.13576 accuracy= 0.73000 time= 0.01279
+Epoch: 0172 train_loss= 0.33787 train_acc= 0.96667 val_loss= 1.14299 val_acc= 0.70400 time= 0.02575
+Test results: cost= 1.13608 accuracy= 0.72900 time= 0.01283
+Epoch: 0173 train_loss= 0.34944 train_acc= 0.96667 val_loss= 1.14242 val_acc= 0.70200 time= 0.02536
+Test results: cost= 1.13701 accuracy= 0.72700 time= 0.01249
+Epoch: 0174 train_loss= 0.37502 train_acc= 0.95000 val_loss= 1.14044 val_acc= 0.70400 time= 0.02594
+Test results: cost= 1.13699 accuracy= 0.72400 time= 0.01286
+Epoch: 0175 train_loss= 0.33492 train_acc= 0.96667 val_loss= 1.13881 val_acc= 0.70200 time= 0.02588
+Test results: cost= 1.13639 accuracy= 0.72600 time= 0.01270
+Epoch: 0176 train_loss= 0.31903 train_acc= 0.97500 val_loss= 1.13753 val_acc= 0.70000 time= 0.02593
+Test results: cost= 1.13574 accuracy= 0.72600 time= 0.01298
+Epoch: 0177 train_loss= 0.36069 train_acc= 0.96667 val_loss= 1.14059 val_acc= 0.70200 time= 0.02628
+Test results: cost= 1.13676 accuracy= 0.72500 time= 0.01280
+Epoch: 0178 train_loss= 0.35055 train_acc= 0.96667 val_loss= 1.14324 val_acc= 0.69800 time= 0.02580
+Test results: cost= 1.13676 accuracy= 0.72200 time= 0.01290
+Epoch: 0179 train_loss= 0.34746 train_acc= 0.98333 val_loss= 1.14612 val_acc= 0.69200 time= 0.02678
+Test results: cost= 1.13673 accuracy= 0.72200 time= 0.01274
+Epoch: 0180 train_loss= 0.32576 train_acc= 0.96667 val_loss= 1.15006 val_acc= 0.69000 time= 0.02626
+Test results: cost= 1.13668 accuracy= 0.72000 time= 0.01271
+Epoch: 0181 train_loss= 0.32511 train_acc= 0.98333 val_loss= 1.15230 val_acc= 0.68800 time= 0.02545
+Test results: cost= 1.13633 accuracy= 0.72100 time= 0.01273
+Epoch: 0182 train_loss= 0.33259 train_acc= 0.96667 val_loss= 1.15137 val_acc= 0.69000 time= 0.02560
+Test results: cost= 1.13483 accuracy= 0.72400 time= 0.01259
+Epoch: 0183 train_loss= 0.33580 train_acc= 0.97500 val_loss= 1.15127 val_acc= 0.69200 time= 0.02625
+Test results: cost= 1.13441 accuracy= 0.72300 time= 0.01289
+Epoch: 0184 train_loss= 0.35818 train_acc= 0.95833 val_loss= 1.14906 val_acc= 0.69600 time= 0.02603
+Test results: cost= 1.13291 accuracy= 0.72200 time= 0.01289
+Epoch: 0185 train_loss= 0.35469 train_acc= 0.93333 val_loss= 1.14452 val_acc= 0.70000 time= 0.02552
+Test results: cost= 1.13087 accuracy= 0.72400 time= 0.01274
+Epoch: 0186 train_loss= 0.35190 train_acc= 0.95833 val_loss= 1.14206 val_acc= 0.70000 time= 0.02596
+Test results: cost= 1.13019 accuracy= 0.72500 time= 0.01285
+Epoch: 0187 train_loss= 0.36494 train_acc= 0.95000 val_loss= 1.14125 val_acc= 0.69800 time= 0.02624
+Test results: cost= 1.13074 accuracy= 0.72700 time= 0.01297
+Epoch: 0188 train_loss= 0.33406 train_acc= 0.98333 val_loss= 1.13861 val_acc= 0.69800 time= 0.02591
+Test results: cost= 1.13112 accuracy= 0.72800 time= 0.01292
+Epoch: 0189 train_loss= 0.38766 train_acc= 0.96667 val_loss= 1.13549 val_acc= 0.69600 time= 0.02599
+Test results: cost= 1.13158 accuracy= 0.72700 time= 0.01270
+Epoch: 0190 train_loss= 0.31194 train_acc= 0.98333 val_loss= 1.13286 val_acc= 0.69600 time= 0.02580
+Test results: cost= 1.13148 accuracy= 0.72700 time= 0.01250
+Epoch: 0191 train_loss= 0.38485 train_acc= 0.96667 val_loss= 1.13061 val_acc= 0.70000 time= 0.02610
+Test results: cost= 1.13106 accuracy= 0.72800 time= 0.01298
+Epoch: 0192 train_loss= 0.32346 train_acc= 0.96667 val_loss= 1.12884 val_acc= 0.70200 time= 0.02593
+Test results: cost= 1.13008 accuracy= 0.72700 time= 0.01273
+Epoch: 0193 train_loss= 0.35788 train_acc= 0.96667 val_loss= 1.12693 val_acc= 0.70600 time= 0.02585
+Test results: cost= 1.12921 accuracy= 0.72700 time= 0.01290
+Epoch: 0194 train_loss= 0.33641 train_acc= 0.95833 val_loss= 1.12622 val_acc= 0.70600 time= 0.02569
+Test results: cost= 1.12724 accuracy= 0.72600 time= 0.01280
+Epoch: 0195 train_loss= 0.34388 train_acc= 0.97500 val_loss= 1.12650 val_acc= 0.70800 time= 0.02602
+Test results: cost= 1.12649 accuracy= 0.72600 time= 0.01279
+Epoch: 0196 train_loss= 0.34893 train_acc= 0.96667 val_loss= 1.12994 val_acc= 0.71000 time= 0.02568
+Test results: cost= 1.12700 accuracy= 0.72600 time= 0.01302
+Epoch: 0197 train_loss= 0.32527 train_acc= 0.97500 val_loss= 1.13409 val_acc= 0.71000 time= 0.02568
+Test results: cost= 1.12786 accuracy= 0.72500 time= 0.01282
+Epoch: 0198 train_loss= 0.37831 train_acc= 0.95833 val_loss= 1.13910 val_acc= 0.70600 time= 0.02525
+Test results: cost= 1.13010 accuracy= 0.72600 time= 0.01299
+Epoch: 0199 train_loss= 0.32927 train_acc= 0.95833 val_loss= 1.14334 val_acc= 0.70600 time= 0.02587
+Test results: cost= 1.13128 accuracy= 0.72300 time= 0.01254
+Epoch: 0200 train_loss= 0.30608 train_acc= 0.98333 val_loss= 1.14791 val_acc= 0.70200 time= 0.02580
+Test results: cost= 1.13269 accuracy= 0.72300 time= 0.01292
+Epoch: 0201 train_loss= 0.32075 train_acc= 0.98333 val_loss= 1.15289 val_acc= 0.69800 time= 0.02559
+Test results: cost= 1.13460 accuracy= 0.72100 time= 0.01265
+Epoch: 0202 train_loss= 0.32895 train_acc= 0.97500 val_loss= 1.15837 val_acc= 0.69600 time= 0.02581
+Test results: cost= 1.13723 accuracy= 0.72100 time= 0.01271
+Epoch: 0203 train_loss= 0.30476 train_acc= 0.99167 val_loss= 1.16296 val_acc= 0.69800 time= 0.02524
+Test results: cost= 1.13907 accuracy= 0.72100 time= 0.01265
+Epoch: 0204 train_loss= 0.34079 train_acc= 0.97500 val_loss= 1.16535 val_acc= 0.69600 time= 0.02532
+Test results: cost= 1.14057 accuracy= 0.72200 time= 0.01274
+Epoch: 0205 train_loss= 0.34030 train_acc= 0.97500 val_loss= 1.16865 val_acc= 0.69600 time= 0.02659
+Test results: cost= 1.14220 accuracy= 0.72400 time= 0.01297
+Epoch: 0206 train_loss= 0.33452 train_acc= 0.96667 val_loss= 1.17055 val_acc= 0.69800 time= 0.02591
+Test results: cost= 1.14319 accuracy= 0.72400 time= 0.01290
+Epoch: 0207 train_loss= 0.30912 train_acc= 0.97500 val_loss= 1.17045 val_acc= 0.69400 time= 0.02595
+Test results: cost= 1.14298 accuracy= 0.72800 time= 0.01259
+Epoch: 0208 train_loss= 0.32967 train_acc= 0.97500 val_loss= 1.17036 val_acc= 0.68400 time= 0.02568
+Test results: cost= 1.14316 accuracy= 0.73200 time= 0.01306
+Epoch: 0209 train_loss= 0.32104 train_acc= 0.97500 val_loss= 1.17113 val_acc= 0.68200 time= 0.02573
+Test results: cost= 1.14447 accuracy= 0.73100 time= 0.01266
+Epoch: 0210 train_loss= 0.31918 train_acc= 0.97500 val_loss= 1.16925 val_acc= 0.68800 time= 0.02561
+Test results: cost= 1.14593 accuracy= 0.72600 time= 0.01291
+Epoch: 0211 train_loss= 0.31027 train_acc= 0.96667 val_loss= 1.16636 val_acc= 0.69400 time= 0.02568
+Test results: cost= 1.14750 accuracy= 0.72600 time= 0.01286
+Epoch: 0212 train_loss= 0.32854 train_acc= 0.95833 val_loss= 1.16427 val_acc= 0.69400 time= 0.02554
+Test results: cost= 1.14857 accuracy= 0.72600 time= 0.01254
+Epoch: 0213 train_loss= 0.31688 train_acc= 0.96667 val_loss= 1.16044 val_acc= 0.69800 time= 0.02564
+Test results: cost= 1.14841 accuracy= 0.72700 time= 0.01286
+Epoch: 0214 train_loss= 0.35414 train_acc= 0.93333 val_loss= 1.15825 val_acc= 0.69800 time= 0.02537
+Test results: cost= 1.14827 accuracy= 0.72600 time= 0.01301
+Epoch: 0215 train_loss= 0.35446 train_acc= 0.95833 val_loss= 1.15541 val_acc= 0.69800 time= 0.02604
+Test results: cost= 1.14763 accuracy= 0.72700 time= 0.01297
+Epoch: 0216 train_loss= 0.33295 train_acc= 0.96667 val_loss= 1.15401 val_acc= 0.69800 time= 0.02593
+Test results: cost= 1.14721 accuracy= 0.72500 time= 0.01281
+Epoch: 0217 train_loss= 0.30839 train_acc= 0.97500 val_loss= 1.15216 val_acc= 0.69600 time= 0.02622
+Test results: cost= 1.14622 accuracy= 0.72400 time= 0.01271
+Epoch: 0218 train_loss= 0.32094 train_acc= 0.96667 val_loss= 1.15321 val_acc= 0.69600 time= 0.02693
+Test results: cost= 1.14690 accuracy= 0.72200 time= 0.01259
+Epoch: 0219 train_loss= 0.32334 train_acc= 0.95833 val_loss= 1.15360 val_acc= 0.69600 time= 0.02598
+Test results: cost= 1.14699 accuracy= 0.72000 time= 0.01275
+Epoch: 0220 train_loss= 0.34571 train_acc= 0.95000 val_loss= 1.15100 val_acc= 0.69600 time= 0.02655
+Test results: cost= 1.14457 accuracy= 0.72100 time= 0.01267
+Epoch: 0221 train_loss= 0.31627 train_acc= 0.97500 val_loss= 1.14782 val_acc= 0.69800 time= 0.02575
+Test results: cost= 1.14149 accuracy= 0.72200 time= 0.01286
+Epoch: 0222 train_loss= 0.33545 train_acc= 0.96667 val_loss= 1.14422 val_acc= 0.70200 time= 0.02761
+Test results: cost= 1.13860 accuracy= 0.72200 time= 0.01306
+Epoch: 0223 train_loss= 0.29654 train_acc= 0.98333 val_loss= 1.13910 val_acc= 0.70200 time= 0.02602
+Test results: cost= 1.13466 accuracy= 0.72700 time= 0.01302
+Epoch: 0224 train_loss= 0.32840 train_acc= 0.97500 val_loss= 1.13368 val_acc= 0.70600 time= 0.02636
+Test results: cost= 1.13022 accuracy= 0.72900 time= 0.01271
+Epoch: 0225 train_loss= 0.33802 train_acc= 0.98333 val_loss= 1.12924 val_acc= 0.71400 time= 0.02536
+Test results: cost= 1.12666 accuracy= 0.72900 time= 0.01311
+Epoch: 0226 train_loss= 0.31388 train_acc= 0.97500 val_loss= 1.12673 val_acc= 0.71400 time= 0.02588
+Test results: cost= 1.12452 accuracy= 0.73000 time= 0.01266
+Epoch: 0227 train_loss= 0.33301 train_acc= 0.95833 val_loss= 1.12344 val_acc= 0.71400 time= 0.02628
+Test results: cost= 1.12321 accuracy= 0.72900 time= 0.01306
+Epoch: 0228 train_loss= 0.32277 train_acc= 0.97500 val_loss= 1.12260 val_acc= 0.71400 time= 0.02608
+Test results: cost= 1.12254 accuracy= 0.72900 time= 0.01299
+Epoch: 0229 train_loss= 0.29067 train_acc= 0.98333 val_loss= 1.12161 val_acc= 0.71200 time= 0.02539
+Test results: cost= 1.12209 accuracy= 0.72800 time= 0.01291
+Epoch: 0230 train_loss= 0.29514 train_acc= 0.96667 val_loss= 1.12250 val_acc= 0.71200 time= 0.02629
+Test results: cost= 1.12322 accuracy= 0.72800 time= 0.01298
+Epoch: 0231 train_loss= 0.31703 train_acc= 0.97500 val_loss= 1.12401 val_acc= 0.71400 time= 0.02563
+Test results: cost= 1.12456 accuracy= 0.72700 time= 0.01269
+Epoch: 0232 train_loss= 0.31437 train_acc= 0.98333 val_loss= 1.12521 val_acc= 0.71200 time= 0.02545
+Test results: cost= 1.12579 accuracy= 0.72600 time= 0.01298
+Epoch: 0233 train_loss= 0.32515 train_acc= 0.98333 val_loss= 1.12835 val_acc= 0.71000 time= 0.02594
+Test results: cost= 1.12855 accuracy= 0.72100 time= 0.01264
+Epoch: 0234 train_loss= 0.30652 train_acc= 0.97500 val_loss= 1.13307 val_acc= 0.71000 time= 0.02575
+Test results: cost= 1.13175 accuracy= 0.71700 time= 0.01285
+Epoch: 0235 train_loss= 0.35545 train_acc= 0.94167 val_loss= 1.13726 val_acc= 0.70200 time= 0.02622
+Test results: cost= 1.13471 accuracy= 0.71500 time= 0.01276
+Epoch: 0236 train_loss= 0.34452 train_acc= 0.97500 val_loss= 1.13999 val_acc= 0.70200 time= 0.02687
+Test results: cost= 1.13727 accuracy= 0.71700 time= 0.01286
+Epoch: 0237 train_loss= 0.37185 train_acc= 0.94167 val_loss= 1.14147 val_acc= 0.70000 time= 0.02605
+Test results: cost= 1.13960 accuracy= 0.71600 time= 0.01331
+Epoch: 0238 train_loss= 0.33840 train_acc= 0.98333 val_loss= 1.14304 val_acc= 0.69800 time= 0.02579
+Test results: cost= 1.14172 accuracy= 0.71800 time= 0.01300
+Epoch: 0239 train_loss= 0.33550 train_acc= 0.95000 val_loss= 1.14382 val_acc= 0.69400 time= 0.02590
+Test results: cost= 1.14208 accuracy= 0.72100 time= 0.01303
+Epoch: 0240 train_loss= 0.33633 train_acc= 0.96667 val_loss= 1.14193 val_acc= 0.69600 time= 0.02571
+Test results: cost= 1.14200 accuracy= 0.72000 time= 0.01281
+Epoch: 0241 train_loss= 0.33548 train_acc= 0.96667 val_loss= 1.14133 val_acc= 0.69600 time= 0.02546
+Test results: cost= 1.14271 accuracy= 0.72000 time= 0.01255
+Epoch: 0242 train_loss= 0.33782 train_acc= 0.95833 val_loss= 1.13734 val_acc= 0.70200 time= 0.02521
+Test results: cost= 1.14179 accuracy= 0.72200 time= 0.01274
+Epoch: 0243 train_loss= 0.34221 train_acc= 0.98333 val_loss= 1.13687 val_acc= 0.69800 time= 0.02541
+Test results: cost= 1.14268 accuracy= 0.72100 time= 0.01283
+Epoch: 0244 train_loss= 0.31909 train_acc= 0.96667 val_loss= 1.13659 val_acc= 0.70600 time= 0.02576
+Test results: cost= 1.14423 accuracy= 0.72200 time= 0.01277
+Epoch: 0245 train_loss= 0.36224 train_acc= 0.96667 val_loss= 1.13559 val_acc= 0.70800 time= 0.02554
+Test results: cost= 1.14577 accuracy= 0.72000 time= 0.01282
+Epoch: 0246 train_loss= 0.33070 train_acc= 0.95833 val_loss= 1.13680 val_acc= 0.71200 time= 0.02563
+Test results: cost= 1.14794 accuracy= 0.72200 time= 0.01279
+Epoch: 0247 train_loss= 0.31948 train_acc= 0.96667 val_loss= 1.14033 val_acc= 0.71200 time= 0.02653
+Test results: cost= 1.15030 accuracy= 0.72100 time= 0.01292
+Epoch: 0248 train_loss= 0.30740 train_acc= 0.97500 val_loss= 1.14373 val_acc= 0.70800 time= 0.02598
+Test results: cost= 1.15276 accuracy= 0.72200 time= 0.01280
+Epoch: 0249 train_loss= 0.33330 train_acc= 0.97500 val_loss= 1.14654 val_acc= 0.70000 time= 0.02563
+Test results: cost= 1.15400 accuracy= 0.72200 time= 0.01295
+Epoch: 0250 train_loss= 0.37945 train_acc= 0.95000 val_loss= 1.14986 val_acc= 0.70000 time= 0.02610
+Test results: cost= 1.15534 accuracy= 0.72100 time= 0.01273
+Epoch: 0251 train_loss= 0.31758 train_acc= 0.97500 val_loss= 1.15305 val_acc= 0.70000 time= 0.02578
+Test results: cost= 1.15716 accuracy= 0.72000 time= 0.01261
+Epoch: 0252 train_loss= 0.33489 train_acc= 0.96667 val_loss= 1.15619 val_acc= 0.70400 time= 0.02575
+Test results: cost= 1.15884 accuracy= 0.71800 time= 0.01290
+Epoch: 0253 train_loss= 0.35166 train_acc= 0.97500 val_loss= 1.15682 val_acc= 0.70400 time= 0.02540
+Test results: cost= 1.15923 accuracy= 0.71700 time= 0.01271
+Epoch: 0254 train_loss= 0.30453 train_acc= 0.97500 val_loss= 1.15600 val_acc= 0.70600 time= 0.02570
+Test results: cost= 1.15874 accuracy= 0.71600 time= 0.01287
+Epoch: 0255 train_loss= 0.31331 train_acc= 0.97500 val_loss= 1.15554 val_acc= 0.70200 time= 0.02696
+Test results: cost= 1.15796 accuracy= 0.71600 time= 0.01279
+Epoch: 0256 train_loss= 0.34952 train_acc= 0.96667 val_loss= 1.15365 val_acc= 0.70800 time= 0.02615
+Test results: cost= 1.15570 accuracy= 0.71800 time= 0.01281
+Epoch: 0257 train_loss= 0.30773 train_acc= 0.97500 val_loss= 1.15030 val_acc= 0.70800 time= 0.02719
+Test results: cost= 1.15273 accuracy= 0.71900 time= 0.01294
+Epoch: 0258 train_loss= 0.33384 train_acc= 0.97500 val_loss= 1.14724 val_acc= 0.70600 time= 0.02544
+Test results: cost= 1.14997 accuracy= 0.72100 time= 0.01266
+Epoch: 0259 train_loss= 0.37230 train_acc= 0.95000 val_loss= 1.14601 val_acc= 0.70600 time= 0.02618
+Test results: cost= 1.14802 accuracy= 0.72100 time= 0.01271
+Epoch: 0260 train_loss= 0.32579 train_acc= 0.96667 val_loss= 1.14422 val_acc= 0.71000 time= 0.02562
+Test results: cost= 1.14543 accuracy= 0.71900 time= 0.01297
+Epoch: 0261 train_loss= 0.28369 train_acc= 0.99167 val_loss= 1.14269 val_acc= 0.71000 time= 0.02641
+Test results: cost= 1.14317 accuracy= 0.72000 time= 0.01314
+Epoch: 0262 train_loss= 0.31268 train_acc= 0.96667 val_loss= 1.14244 val_acc= 0.71000 time= 0.02587
+Test results: cost= 1.14210 accuracy= 0.71900 time= 0.01268
+Epoch: 0263 train_loss= 0.31701 train_acc= 0.97500 val_loss= 1.14176 val_acc= 0.71400 time= 0.02557
+Test results: cost= 1.14118 accuracy= 0.72000 time= 0.01277
+Epoch: 0264 train_loss= 0.29463 train_acc= 0.98333 val_loss= 1.14134 val_acc= 0.71600 time= 0.02599
+Test results: cost= 1.14109 accuracy= 0.71900 time= 0.01294
+Epoch: 0265 train_loss= 0.28642 train_acc= 0.98333 val_loss= 1.14169 val_acc= 0.71400 time= 0.02690
+Test results: cost= 1.14165 accuracy= 0.71700 time= 0.01288
+Epoch: 0266 train_loss= 0.30920 train_acc= 0.97500 val_loss= 1.14180 val_acc= 0.71200 time= 0.02583
+Test results: cost= 1.14169 accuracy= 0.71600 time= 0.01278
+Epoch: 0267 train_loss= 0.37343 train_acc= 0.95000 val_loss= 1.14227 val_acc= 0.71000 time= 0.02569
+Test results: cost= 1.14288 accuracy= 0.71800 time= 0.01304
+Epoch: 0268 train_loss= 0.32127 train_acc= 0.97500 val_loss= 1.14288 val_acc= 0.70400 time= 0.02680
+Test results: cost= 1.14393 accuracy= 0.71500 time= 0.01308
+Epoch: 0269 train_loss= 0.31068 train_acc= 0.95833 val_loss= 1.14223 val_acc= 0.71000 time= 0.02707
+Test results: cost= 1.14411 accuracy= 0.71600 time= 0.01286
+Epoch: 0270 train_loss= 0.30500 train_acc= 0.98333 val_loss= 1.14272 val_acc= 0.71000 time= 0.02647
+Test results: cost= 1.14412 accuracy= 0.71700 time= 0.01279
+Epoch: 0271 train_loss= 0.30901 train_acc= 0.98333 val_loss= 1.14243 val_acc= 0.71000 time= 0.02569
+Test results: cost= 1.14392 accuracy= 0.71700 time= 0.01280
+Epoch: 0272 train_loss= 0.31757 train_acc= 0.96667 val_loss= 1.14384 val_acc= 0.70800 time= 0.02559
+Test results: cost= 1.14604 accuracy= 0.71700 time= 0.01320
+Epoch: 0273 train_loss= 0.29434 train_acc= 0.97500 val_loss= 1.14195 val_acc= 0.71000 time= 0.02549
+Test results: cost= 1.14614 accuracy= 0.71700 time= 0.01289
+Epoch: 0274 train_loss= 0.32659 train_acc= 0.96667 val_loss= 1.13969 val_acc= 0.70800 time= 0.02686
+Test results: cost= 1.14394 accuracy= 0.71800 time= 0.01307
+Epoch: 0275 train_loss= 0.30483 train_acc= 0.97500 val_loss= 1.13863 val_acc= 0.70600 time= 0.02540
+Test results: cost= 1.14100 accuracy= 0.71900 time= 0.01290
+Epoch: 0276 train_loss= 0.31345 train_acc= 0.95833 val_loss= 1.13877 val_acc= 0.70400 time= 0.02534
+Test results: cost= 1.13860 accuracy= 0.71900 time= 0.01269
+Epoch: 0277 train_loss= 0.31474 train_acc= 0.95833 val_loss= 1.14215 val_acc= 0.70400 time= 0.02635
+Test results: cost= 1.13775 accuracy= 0.71700 time= 0.01262
+Epoch: 0278 train_loss= 0.29425 train_acc= 0.97500 val_loss= 1.14532 val_acc= 0.70200 time= 0.02592
+Test results: cost= 1.13786 accuracy= 0.71700 time= 0.01291
+Epoch: 0279 train_loss= 0.31535 train_acc= 0.98333 val_loss= 1.14740 val_acc= 0.69800 time= 0.02614
+Test results: cost= 1.13825 accuracy= 0.71600 time= 0.01250
+Epoch: 0280 train_loss= 0.32631 train_acc= 0.97500 val_loss= 1.14609 val_acc= 0.69800 time= 0.02561
+Test results: cost= 1.13704 accuracy= 0.71700 time= 0.01306
+Epoch: 0281 train_loss= 0.27667 train_acc= 0.97500 val_loss= 1.14428 val_acc= 0.70000 time= 0.02639
+Test results: cost= 1.13559 accuracy= 0.72000 time= 0.01283
+Epoch: 0282 train_loss= 0.30189 train_acc= 0.96667 val_loss= 1.14288 val_acc= 0.70200 time= 0.02620
+Test results: cost= 1.13360 accuracy= 0.72500 time= 0.01282
+Epoch: 0283 train_loss= 0.29600 train_acc= 0.97500 val_loss= 1.14238 val_acc= 0.70600 time= 0.02569
+Test results: cost= 1.13213 accuracy= 0.72500 time= 0.01295
+Epoch: 0284 train_loss= 0.34394 train_acc= 0.96667 val_loss= 1.14179 val_acc= 0.70200 time= 0.02600
+Test results: cost= 1.13110 accuracy= 0.72500 time= 0.01281
+Epoch: 0285 train_loss= 0.29327 train_acc= 0.96667 val_loss= 1.13891 val_acc= 0.70200 time= 0.02557
+Test results: cost= 1.12995 accuracy= 0.72400 time= 0.01260
+Epoch: 0286 train_loss= 0.31839 train_acc= 0.97500 val_loss= 1.13588 val_acc= 0.70400 time= 0.02631
+Test results: cost= 1.12906 accuracy= 0.72500 time= 0.01274
+Epoch: 0287 train_loss= 0.33888 train_acc= 0.96667 val_loss= 1.13252 val_acc= 0.70400 time= 0.02553
+Test results: cost= 1.12810 accuracy= 0.72700 time= 0.01294
+Epoch: 0288 train_loss= 0.30055 train_acc= 0.98333 val_loss= 1.13191 val_acc= 0.70200 time= 0.02720
+Test results: cost= 1.12867 accuracy= 0.72800 time= 0.01306
+Epoch: 0289 train_loss= 0.29350 train_acc= 0.98333 val_loss= 1.13201 val_acc= 0.70200 time= 0.02599
+Test results: cost= 1.12999 accuracy= 0.72900 time= 0.01279
+Epoch: 0290 train_loss= 0.32719 train_acc= 0.97500 val_loss= 1.12938 val_acc= 0.70200 time= 0.02549
+Test results: cost= 1.12964 accuracy= 0.72800 time= 0.01283
+Epoch: 0291 train_loss= 0.31411 train_acc= 0.97500 val_loss= 1.12501 val_acc= 0.70000 time= 0.02597
+Test results: cost= 1.12979 accuracy= 0.72700 time= 0.01295
+Epoch: 0292 train_loss= 0.29741 train_acc= 0.96667 val_loss= 1.12295 val_acc= 0.70200 time= 0.02609
+Test results: cost= 1.12998 accuracy= 0.73000 time= 0.01280
+Epoch: 0293 train_loss= 0.30944 train_acc= 0.95833 val_loss= 1.12321 val_acc= 0.70000 time= 0.02570
+Test results: cost= 1.12990 accuracy= 0.72900 time= 0.01293
+Epoch: 0294 train_loss= 0.31609 train_acc= 0.96667 val_loss= 1.12511 val_acc= 0.70000 time= 0.02585
+Test results: cost= 1.13102 accuracy= 0.72800 time= 0.01282
+Epoch: 0295 train_loss= 0.34726 train_acc= 0.94167 val_loss= 1.12861 val_acc= 0.70200 time= 0.02599
+Test results: cost= 1.13243 accuracy= 0.72600 time= 0.01294
+Epoch: 0296 train_loss= 0.29143 train_acc= 0.98333 val_loss= 1.13439 val_acc= 0.70200 time= 0.02574
+Test results: cost= 1.13521 accuracy= 0.72300 time= 0.01277
+Epoch: 0297 train_loss= 0.31375 train_acc= 0.96667 val_loss= 1.14341 val_acc= 0.71000 time= 0.02596
+Test results: cost= 1.14008 accuracy= 0.71900 time= 0.01287
+Epoch: 0298 train_loss= 0.30851 train_acc= 0.96667 val_loss= 1.15236 val_acc= 0.70400 time= 0.02587
+Test results: cost= 1.14440 accuracy= 0.71300 time= 0.01288
+Epoch: 0299 train_loss= 0.32321 train_acc= 0.95833 val_loss= 1.16043 val_acc= 0.69600 time= 0.02573
+Test results: cost= 1.14773 accuracy= 0.71200 time= 0.01289
+Epoch: 0300 train_loss= 0.34711 train_acc= 0.97500 val_loss= 1.16756 val_acc= 0.68800 time= 0.02630
+Test results: cost= 1.15047 accuracy= 0.71200 time= 0.01263
+Epoch: 0301 train_loss= 0.33417 train_acc= 0.98333 val_loss= 1.17153 val_acc= 0.68400 time= 0.02554
+Test results: cost= 1.15322 accuracy= 0.71000 time= 0.01297
+Epoch: 0302 train_loss= 0.33896 train_acc= 0.95000 val_loss= 1.17132 val_acc= 0.68600 time= 0.02586
+Test results: cost= 1.15307 accuracy= 0.71100 time= 0.01268
+Epoch: 0303 train_loss= 0.29137 train_acc= 0.98333 val_loss= 1.17029 val_acc= 0.68800 time= 0.02573
+Test results: cost= 1.15245 accuracy= 0.71200 time= 0.01260
+Epoch: 0304 train_loss= 0.33632 train_acc= 0.97500 val_loss= 1.16651 val_acc= 0.68800 time= 0.02581
+Test results: cost= 1.15030 accuracy= 0.71300 time= 0.01276
+Epoch: 0305 train_loss= 0.31493 train_acc= 0.96667 val_loss= 1.16535 val_acc= 0.69000 time= 0.02536
+Test results: cost= 1.14950 accuracy= 0.71300 time= 0.01277
+Epoch: 0306 train_loss= 0.27365 train_acc= 0.97500 val_loss= 1.16338 val_acc= 0.68800 time= 0.02541
+Test results: cost= 1.14870 accuracy= 0.71700 time= 0.01297
+Epoch: 0307 train_loss= 0.33536 train_acc= 0.96667 val_loss= 1.16270 val_acc= 0.68800 time= 0.02574
+Test results: cost= 1.14947 accuracy= 0.71800 time= 0.01281
+Epoch: 0308 train_loss= 0.31474 train_acc= 0.95833 val_loss= 1.16029 val_acc= 0.69000 time= 0.02555
+Test results: cost= 1.14929 accuracy= 0.72200 time= 0.01305
+Epoch: 0309 train_loss= 0.30168 train_acc= 0.96667 val_loss= 1.15700 val_acc= 0.69400 time= 0.02562
+Test results: cost= 1.14837 accuracy= 0.72200 time= 0.01301
+Epoch: 0310 train_loss= 0.31849 train_acc= 0.97500 val_loss= 1.15411 val_acc= 0.69800 time= 0.02595
+Test results: cost= 1.14863 accuracy= 0.72400 time= 0.01262
+Epoch: 0311 train_loss= 0.33063 train_acc= 0.96667 val_loss= 1.15232 val_acc= 0.69600 time= 0.02564
+Test results: cost= 1.14873 accuracy= 0.72700 time= 0.01289
+Epoch: 0312 train_loss= 0.32077 train_acc= 0.97500 val_loss= 1.15118 val_acc= 0.69400 time= 0.02564
+Test results: cost= 1.14931 accuracy= 0.72500 time= 0.01315
+Epoch: 0313 train_loss= 0.30748 train_acc= 0.97500 val_loss= 1.15191 val_acc= 0.69200 time= 0.02584
+Test results: cost= 1.15000 accuracy= 0.72100 time= 0.01276
+Epoch: 0314 train_loss= 0.35130 train_acc= 0.98333 val_loss= 1.15443 val_acc= 0.69600 time= 0.02619
+Test results: cost= 1.15138 accuracy= 0.71800 time= 0.01288
+Epoch: 0315 train_loss= 0.30016 train_acc= 0.97500 val_loss= 1.15796 val_acc= 0.69400 time= 0.02565
+Test results: cost= 1.15334 accuracy= 0.71600 time= 0.01327
+Epoch: 0316 train_loss= 0.30463 train_acc= 0.98333 val_loss= 1.16120 val_acc= 0.69000 time= 0.02600
+Test results: cost= 1.15383 accuracy= 0.71600 time= 0.01261
+Epoch: 0317 train_loss= 0.29471 train_acc= 0.98333 val_loss= 1.16675 val_acc= 0.68400 time= 0.02549
+Test results: cost= 1.15556 accuracy= 0.71800 time= 0.01288
+Epoch: 0318 train_loss= 0.29240 train_acc= 0.97500 val_loss= 1.17206 val_acc= 0.68200 time= 0.02576
+Test results: cost= 1.15751 accuracy= 0.71600 time= 0.01294
+Epoch: 0319 train_loss= 0.29620 train_acc= 0.97500 val_loss= 1.17400 val_acc= 0.68400 time= 0.02594
+Test results: cost= 1.15707 accuracy= 0.71800 time= 0.01289
+Epoch: 0320 train_loss= 0.32297 train_acc= 0.96667 val_loss= 1.17323 val_acc= 0.68400 time= 0.02594
+Test results: cost= 1.15576 accuracy= 0.71700 time= 0.01274
+Epoch: 0321 train_loss= 0.31267 train_acc= 0.98333 val_loss= 1.17104 val_acc= 0.68400 time= 0.02530
+Test results: cost= 1.15413 accuracy= 0.71600 time= 0.01303
+Epoch: 0322 train_loss= 0.30817 train_acc= 0.96667 val_loss= 1.16415 val_acc= 0.68600 time= 0.02551
+Test results: cost= 1.15096 accuracy= 0.71600 time= 0.01290
+Epoch: 0323 train_loss= 0.30173 train_acc= 0.97500 val_loss= 1.15664 val_acc= 0.68800 time= 0.02542
+Test results: cost= 1.14755 accuracy= 0.71600 time= 0.01267
+Epoch: 0324 train_loss= 0.29810 train_acc= 0.97500 val_loss= 1.14893 val_acc= 0.68800 time= 0.02522
+Test results: cost= 1.14474 accuracy= 0.71700 time= 0.01297
+Epoch: 0325 train_loss= 0.30892 train_acc= 0.96667 val_loss= 1.14030 val_acc= 0.69400 time= 0.02630
+Test results: cost= 1.14147 accuracy= 0.71800 time= 0.01267
+Epoch: 0326 train_loss= 0.31925 train_acc= 0.95833 val_loss= 1.13360 val_acc= 0.69800 time= 0.02571
+Test results: cost= 1.13894 accuracy= 0.72100 time= 0.01288
+Epoch: 0327 train_loss= 0.32205 train_acc= 0.97500 val_loss= 1.12793 val_acc= 0.70400 time= 0.02556
+Test results: cost= 1.13677 accuracy= 0.72600 time= 0.01251
+Epoch: 0328 train_loss= 0.31595 train_acc= 0.96667 val_loss= 1.12747 val_acc= 0.70400 time= 0.02603
+Test results: cost= 1.13589 accuracy= 0.72500 time= 0.01304
+Epoch: 0329 train_loss= 0.30261 train_acc= 0.96667 val_loss= 1.12785 val_acc= 0.70400 time= 0.02657
+Test results: cost= 1.13606 accuracy= 0.72400 time= 0.01290
+Epoch: 0330 train_loss= 0.30190 train_acc= 0.96667 val_loss= 1.13180 val_acc= 0.70400 time= 0.02626
+Test results: cost= 1.13635 accuracy= 0.72400 time= 0.01288
+Epoch: 0331 train_loss= 0.31071 train_acc= 0.96667 val_loss= 1.13461 val_acc= 0.70400 time= 0.02560
+Test results: cost= 1.13590 accuracy= 0.72500 time= 0.01262
+Epoch: 0332 train_loss= 0.32282 train_acc= 0.95833 val_loss= 1.13885 val_acc= 0.70400 time= 0.02561
+Test results: cost= 1.13557 accuracy= 0.72300 time= 0.01287
+Epoch: 0333 train_loss= 0.29482 train_acc= 0.97500 val_loss= 1.14021 val_acc= 0.70400 time= 0.02592
+Test results: cost= 1.13413 accuracy= 0.72000 time= 0.01276
+Epoch: 0334 train_loss= 0.32446 train_acc= 0.95000 val_loss= 1.14204 val_acc= 0.70400 time= 0.02557
+Test results: cost= 1.13271 accuracy= 0.72300 time= 0.01280
+Epoch: 0335 train_loss= 0.31111 train_acc= 0.95833 val_loss= 1.14186 val_acc= 0.70400 time= 0.02609
+Test results: cost= 1.13005 accuracy= 0.72400 time= 0.01286
+Epoch: 0336 train_loss= 0.30760 train_acc= 0.96667 val_loss= 1.14445 val_acc= 0.70200 time= 0.02527
+Test results: cost= 1.12940 accuracy= 0.72300 time= 0.01292
+Epoch: 0337 train_loss= 0.32598 train_acc= 0.95000 val_loss= 1.14449 val_acc= 0.70200 time= 0.02591
+Test results: cost= 1.12812 accuracy= 0.72200 time= 0.01283
+Epoch: 0338 train_loss= 0.28036 train_acc= 0.96667 val_loss= 1.14467 val_acc= 0.69800 time= 0.02593
+Test results: cost= 1.12705 accuracy= 0.72400 time= 0.01288
+Epoch: 0339 train_loss= 0.28074 train_acc= 0.97500 val_loss= 1.14523 val_acc= 0.69800 time= 0.02563
+Test results: cost= 1.12630 accuracy= 0.72500 time= 0.01288
+Epoch: 0340 train_loss= 0.29185 train_acc= 0.97500 val_loss= 1.14747 val_acc= 0.69400 time= 0.02613
+Test results: cost= 1.12685 accuracy= 0.72700 time= 0.01265
+Epoch: 0341 train_loss= 0.31957 train_acc= 0.95000 val_loss= 1.15159 val_acc= 0.69400 time= 0.02546
+Test results: cost= 1.12852 accuracy= 0.72500 time= 0.01264
+Epoch: 0342 train_loss= 0.29728 train_acc= 0.96667 val_loss= 1.15552 val_acc= 0.69600 time= 0.02643
+Test results: cost= 1.13125 accuracy= 0.72200 time= 0.01272
+Epoch: 0343 train_loss= 0.31232 train_acc= 0.95833 val_loss= 1.16103 val_acc= 0.69600 time= 0.02602
+Test results: cost= 1.13544 accuracy= 0.72000 time= 0.01278
+Epoch: 0344 train_loss= 0.29968 train_acc= 0.98333 val_loss= 1.16832 val_acc= 0.69200 time= 0.02558
+Test results: cost= 1.14091 accuracy= 0.71400 time= 0.01303
+Epoch: 0345 train_loss= 0.32412 train_acc= 0.95833 val_loss= 1.17581 val_acc= 0.69200 time= 0.02623
+Test results: cost= 1.14780 accuracy= 0.71000 time= 0.01301
+Epoch: 0346 train_loss= 0.30241 train_acc= 0.97500 val_loss= 1.18131 val_acc= 0.68800 time= 0.02611
+Test results: cost= 1.15418 accuracy= 0.70700 time= 0.01296
+Epoch: 0347 train_loss= 0.27734 train_acc= 0.98333 val_loss= 1.18290 val_acc= 0.68600 time= 0.02657
+Test results: cost= 1.15721 accuracy= 0.70800 time= 0.01285
+Epoch: 0348 train_loss= 0.30850 train_acc= 0.98333 val_loss= 1.18255 val_acc= 0.68400 time= 0.02607
+Test results: cost= 1.15897 accuracy= 0.70900 time= 0.01248
+Epoch: 0349 train_loss= 0.30242 train_acc= 0.96667 val_loss= 1.18279 val_acc= 0.68400 time= 0.02537
+Test results: cost= 1.16161 accuracy= 0.71100 time= 0.01277
+Epoch: 0350 train_loss= 0.30517 train_acc= 0.96667 val_loss= 1.18113 val_acc= 0.68000 time= 0.02602
+Test results: cost= 1.16256 accuracy= 0.71000 time= 0.01299
+Epoch: 0351 train_loss= 0.30658 train_acc= 0.97500 val_loss= 1.17905 val_acc= 0.68600 time= 0.02612
+Test results: cost= 1.16245 accuracy= 0.71000 time= 0.01290
+Epoch: 0352 train_loss= 0.28439 train_acc= 0.98333 val_loss= 1.17547 val_acc= 0.69000 time= 0.02604
+Test results: cost= 1.15999 accuracy= 0.71100 time= 0.01282
+Epoch: 0353 train_loss= 0.28334 train_acc= 0.98333 val_loss= 1.17096 val_acc= 0.69200 time= 0.02541
+Test results: cost= 1.15700 accuracy= 0.71600 time= 0.01273
+Epoch: 0354 train_loss= 0.29899 train_acc= 0.97500 val_loss= 1.16565 val_acc= 0.69400 time= 0.02550
+Test results: cost= 1.15308 accuracy= 0.71900 time= 0.01247
+Epoch: 0355 train_loss= 0.32651 train_acc= 0.94167 val_loss= 1.16394 val_acc= 0.69600 time= 0.02582
+Test results: cost= 1.14916 accuracy= 0.72200 time= 0.01255
+Epoch: 0356 train_loss= 0.32514 train_acc= 0.95833 val_loss= 1.15730 val_acc= 0.70200 time= 0.02602
+Test results: cost= 1.14155 accuracy= 0.72200 time= 0.01302
+Epoch: 0357 train_loss= 0.32390 train_acc= 0.96667 val_loss= 1.15282 val_acc= 0.70200 time= 0.02640
+Test results: cost= 1.13663 accuracy= 0.72400 time= 0.01259
+Epoch: 0358 train_loss= 0.31075 train_acc= 0.97500 val_loss= 1.14909 val_acc= 0.70000 time= 0.02584
+Test results: cost= 1.13372 accuracy= 0.72600 time= 0.01265
+Epoch: 0359 train_loss= 0.31023 train_acc= 0.97500 val_loss= 1.14833 val_acc= 0.70200 time= 0.02557
+Test results: cost= 1.13296 accuracy= 0.72400 time= 0.01325
+Epoch: 0360 train_loss= 0.32911 train_acc= 0.95000 val_loss= 1.14816 val_acc= 0.70600 time= 0.02571
+Test results: cost= 1.13306 accuracy= 0.72300 time= 0.01262
+Epoch: 0361 train_loss= 0.31570 train_acc= 0.97500 val_loss= 1.15005 val_acc= 0.70400 time= 0.02536
+Test results: cost= 1.13462 accuracy= 0.72400 time= 0.01273
+Epoch: 0362 train_loss= 0.30804 train_acc= 0.98333 val_loss= 1.15089 val_acc= 0.70400 time= 0.02538
+Test results: cost= 1.13634 accuracy= 0.72400 time= 0.01257
+Epoch: 0363 train_loss= 0.30385 train_acc= 0.96667 val_loss= 1.15250 val_acc= 0.70200 time= 0.02557
+Test results: cost= 1.13816 accuracy= 0.72500 time= 0.01288
+Epoch: 0364 train_loss= 0.29357 train_acc= 0.96667 val_loss= 1.15828 val_acc= 0.70000 time= 0.02589
+Test results: cost= 1.14193 accuracy= 0.72500 time= 0.01283
+Epoch: 0365 train_loss= 0.30908 train_acc= 0.97500 val_loss= 1.16333 val_acc= 0.69600 time= 0.02571
+Test results: cost= 1.14645 accuracy= 0.72300 time= 0.01276
+Epoch: 0366 train_loss= 0.29173 train_acc= 0.98333 val_loss= 1.16870 val_acc= 0.69200 time= 0.02560
+Test results: cost= 1.15141 accuracy= 0.72100 time= 0.01276
+Epoch: 0367 train_loss= 0.33103 train_acc= 0.95833 val_loss= 1.17243 val_acc= 0.68800 time= 0.02605
+Test results: cost= 1.15693 accuracy= 0.71600 time= 0.01299
+Epoch: 0368 train_loss= 0.30515 train_acc= 0.98333 val_loss= 1.17113 val_acc= 0.69200 time= 0.02844
+Test results: cost= 1.16035 accuracy= 0.71400 time= 0.01252
+Epoch: 0369 train_loss= 0.28962 train_acc= 0.98333 val_loss= 1.16842 val_acc= 0.69000 time= 0.02556
+Test results: cost= 1.16298 accuracy= 0.71400 time= 0.01277
+Epoch: 0370 train_loss= 0.30925 train_acc= 0.96667 val_loss= 1.16571 val_acc= 0.69400 time= 0.02592
+Test results: cost= 1.16433 accuracy= 0.71700 time= 0.01276
+Epoch: 0371 train_loss= 0.34342 train_acc= 0.95000 val_loss= 1.16231 val_acc= 0.70600 time= 0.02573
+Test results: cost= 1.16498 accuracy= 0.71700 time= 0.01296
+Epoch: 0372 train_loss= 0.31287 train_acc= 0.96667 val_loss= 1.15983 val_acc= 0.70000 time= 0.02583
+Test results: cost= 1.16600 accuracy= 0.71800 time= 0.01285
+Epoch: 0373 train_loss= 0.34029 train_acc= 0.95833 val_loss= 1.15753 val_acc= 0.70000 time= 0.02532
+Test results: cost= 1.16590 accuracy= 0.72100 time= 0.01291
+Epoch: 0374 train_loss= 0.33110 train_acc= 0.96667 val_loss= 1.15535 val_acc= 0.70000 time= 0.02575
+Test results: cost= 1.16553 accuracy= 0.72100 time= 0.01264
+Epoch: 0375 train_loss= 0.31010 train_acc= 0.96667 val_loss= 1.15203 val_acc= 0.69800 time= 0.02527
+Test results: cost= 1.16349 accuracy= 0.72000 time= 0.01245
+Epoch: 0376 train_loss= 0.30618 train_acc= 0.99167 val_loss= 1.14889 val_acc= 0.71000 time= 0.02577
+Test results: cost= 1.16143 accuracy= 0.72000 time= 0.01294
+Epoch: 0377 train_loss= 0.31477 train_acc= 0.95833 val_loss= 1.14718 val_acc= 0.70600 time= 0.02596
+Test results: cost= 1.15906 accuracy= 0.71800 time= 0.01260
+Epoch: 0378 train_loss= 0.31136 train_acc= 0.98333 val_loss= 1.14507 val_acc= 0.69800 time= 0.02625
+Test results: cost= 1.15571 accuracy= 0.71700 time= 0.01294
+Epoch: 0379 train_loss= 0.32118 train_acc= 0.95833 val_loss= 1.14399 val_acc= 0.69600 time= 0.02566
+Test results: cost= 1.15266 accuracy= 0.72000 time= 0.01250
+Epoch: 0380 train_loss= 0.31451 train_acc= 0.96667 val_loss= 1.14556 val_acc= 0.69800 time= 0.02590
+Test results: cost= 1.15171 accuracy= 0.72100 time= 0.01292
+Epoch: 0381 train_loss= 0.30704 train_acc= 0.98333 val_loss= 1.14712 val_acc= 0.70000 time= 0.02659
+Test results: cost= 1.15102 accuracy= 0.72400 time= 0.01242
+Epoch: 0382 train_loss= 0.29171 train_acc= 0.98333 val_loss= 1.14978 val_acc= 0.70200 time= 0.02559
+Test results: cost= 1.15159 accuracy= 0.72300 time= 0.01282
+Epoch: 0383 train_loss= 0.33620 train_acc= 0.95000 val_loss= 1.15374 val_acc= 0.70200 time= 0.02541
+Test results: cost= 1.15299 accuracy= 0.72200 time= 0.01264
+Epoch: 0384 train_loss= 0.33429 train_acc= 0.99167 val_loss= 1.15883 val_acc= 0.70200 time= 0.02591
+Test results: cost= 1.15575 accuracy= 0.72200 time= 0.01280
+Epoch: 0385 train_loss= 0.30343 train_acc= 0.96667 val_loss= 1.16342 val_acc= 0.69600 time= 0.02578
+Test results: cost= 1.15875 accuracy= 0.72200 time= 0.01248
+Epoch: 0386 train_loss= 0.31850 train_acc= 0.95833 val_loss= 1.16688 val_acc= 0.69800 time= 0.02580
+Test results: cost= 1.16173 accuracy= 0.72200 time= 0.01273
+Epoch: 0387 train_loss= 0.28037 train_acc= 0.97500 val_loss= 1.16971 val_acc= 0.69600 time= 0.02556
+Test results: cost= 1.16479 accuracy= 0.72400 time= 0.01301
+Epoch: 0388 train_loss= 0.31513 train_acc= 0.97500 val_loss= 1.16821 val_acc= 0.69200 time= 0.02538
+Test results: cost= 1.16601 accuracy= 0.72200 time= 0.01279
+Epoch: 0389 train_loss= 0.32444 train_acc= 0.95833 val_loss= 1.16899 val_acc= 0.69400 time= 0.02595
+Test results: cost= 1.16950 accuracy= 0.72300 time= 0.01280
+Epoch: 0390 train_loss= 0.29771 train_acc= 0.95833 val_loss= 1.16751 val_acc= 0.69200 time= 0.02651
+Test results: cost= 1.17059 accuracy= 0.72100 time= 0.01279
+Epoch: 0391 train_loss= 0.30390 train_acc= 0.97500 val_loss= 1.16396 val_acc= 0.69200 time= 0.02565
+Test results: cost= 1.17063 accuracy= 0.72300 time= 0.01276
+Epoch: 0392 train_loss= 0.32594 train_acc= 0.96667 val_loss= 1.15955 val_acc= 0.69600 time= 0.02619
+Test results: cost= 1.16855 accuracy= 0.72500 time= 0.01250
+Epoch: 0393 train_loss= 0.29612 train_acc= 0.98333 val_loss= 1.15562 val_acc= 0.69400 time= 0.02551
+Test results: cost= 1.16681 accuracy= 0.72600 time= 0.01283
+Epoch: 0394 train_loss= 0.31419 train_acc= 0.98333 val_loss= 1.15246 val_acc= 0.69200 time= 0.02589
+Test results: cost= 1.16494 accuracy= 0.72600 time= 0.01285
+Epoch: 0395 train_loss= 0.31371 train_acc= 0.98333 val_loss= 1.14742 val_acc= 0.69600 time= 0.02607
+Test results: cost= 1.16261 accuracy= 0.72600 time= 0.01319
+Epoch: 0396 train_loss= 0.32115 train_acc= 0.95833 val_loss= 1.14203 val_acc= 0.69600 time= 0.02669
+Test results: cost= 1.15994 accuracy= 0.72600 time= 0.01262
+Epoch: 0397 train_loss= 0.30939 train_acc= 0.97500 val_loss= 1.13932 val_acc= 0.70200 time= 0.02619
+Test results: cost= 1.15806 accuracy= 0.72600 time= 0.01256
+Epoch: 0398 train_loss= 0.28657 train_acc= 0.97500 val_loss= 1.13593 val_acc= 0.69400 time= 0.02567
+Test results: cost= 1.15558 accuracy= 0.72600 time= 0.01281
+Epoch: 0399 train_loss= 0.31148 train_acc= 0.96667 val_loss= 1.13430 val_acc= 0.69200 time= 0.02553
+Test results: cost= 1.15410 accuracy= 0.72900 time= 0.01292
+Epoch: 0400 train_loss= 0.31542 train_acc= 0.97500 val_loss= 1.13331 val_acc= 0.69800 time= 0.02594
+Test results: cost= 1.15179 accuracy= 0.72900 time= 0.01266
+Epoch: 0401 train_loss= 0.30522 train_acc= 0.98333 val_loss= 1.13584 val_acc= 0.69800 time= 0.02563
+Test results: cost= 1.15102 accuracy= 0.72800 time= 0.01304
+Epoch: 0402 train_loss= 0.33495 train_acc= 0.96667 val_loss= 1.13914 val_acc= 0.69400 time= 0.02521
+Test results: cost= 1.14863 accuracy= 0.72800 time= 0.01260
+Epoch: 0403 train_loss= 0.31907 train_acc= 0.96667 val_loss= 1.14643 val_acc= 0.69000 time= 0.02648
+Test results: cost= 1.14798 accuracy= 0.72300 time= 0.01293
+Epoch: 0404 train_loss= 0.36037 train_acc= 0.94167 val_loss= 1.15427 val_acc= 0.68800 time= 0.02556
+Test results: cost= 1.14810 accuracy= 0.72500 time= 0.01269
+Epoch: 0405 train_loss= 0.28600 train_acc= 0.97500 val_loss= 1.16445 val_acc= 0.68400 time= 0.02593
+Test results: cost= 1.15066 accuracy= 0.72500 time= 0.01297
+Epoch: 0406 train_loss= 0.29602 train_acc= 0.98333 val_loss= 1.17433 val_acc= 0.68000 time= 0.02573
+Test results: cost= 1.15387 accuracy= 0.72200 time= 0.01260
+Epoch: 0407 train_loss= 0.29367 train_acc= 0.97500 val_loss= 1.18466 val_acc= 0.68200 time= 0.02547
+Test results: cost= 1.15788 accuracy= 0.72200 time= 0.01275
+Epoch: 0408 train_loss= 0.31939 train_acc= 0.95000 val_loss= 1.19221 val_acc= 0.67400 time= 0.02554
+Test results: cost= 1.16118 accuracy= 0.71800 time= 0.01271
+Epoch: 0409 train_loss= 0.30379 train_acc= 0.96667 val_loss= 1.19673 val_acc= 0.67400 time= 0.02568
+Test results: cost= 1.16384 accuracy= 0.71500 time= 0.01302
+Epoch: 0410 train_loss= 0.30784 train_acc= 0.95833 val_loss= 1.19354 val_acc= 0.67600 time= 0.02548
+Test results: cost= 1.16309 accuracy= 0.72000 time= 0.01270
+Epoch: 0411 train_loss= 0.30059 train_acc= 0.98333 val_loss= 1.18733 val_acc= 0.68600 time= 0.02626
+Test results: cost= 1.16157 accuracy= 0.72300 time= 0.01265
+Epoch: 0412 train_loss= 0.31246 train_acc= 0.95000 val_loss= 1.17926 val_acc= 0.69400 time= 0.02534
+Test results: cost= 1.15949 accuracy= 0.72200 time= 0.01313
+Epoch: 0413 train_loss= 0.31174 train_acc= 0.95833 val_loss= 1.17263 val_acc= 0.69400 time= 0.02592
+Test results: cost= 1.15819 accuracy= 0.72400 time= 0.01257
+Epoch: 0414 train_loss= 0.29043 train_acc= 0.98333 val_loss= 1.16717 val_acc= 0.70000 time= 0.02549
+Test results: cost= 1.15672 accuracy= 0.72000 time= 0.01260
+Epoch: 0415 train_loss= 0.33644 train_acc= 0.95833 val_loss= 1.16671 val_acc= 0.70000 time= 0.02549
+Test results: cost= 1.15655 accuracy= 0.72100 time= 0.01260
+Epoch: 0416 train_loss= 0.29175 train_acc= 0.96667 val_loss= 1.16331 val_acc= 0.70000 time= 0.02528
+Test results: cost= 1.15507 accuracy= 0.72100 time= 0.01291
+Epoch: 0417 train_loss= 0.31618 train_acc= 0.96667 val_loss= 1.16100 val_acc= 0.70000 time= 0.02611
+Test results: cost= 1.15382 accuracy= 0.72200 time= 0.01287
+Epoch: 0418 train_loss= 0.31335 train_acc= 0.99167 val_loss= 1.15985 val_acc= 0.69800 time= 0.02594
+Test results: cost= 1.15420 accuracy= 0.72200 time= 0.01293
+Epoch: 0419 train_loss= 0.27021 train_acc= 0.97500 val_loss= 1.15693 val_acc= 0.70200 time= 0.02524
+Test results: cost= 1.15390 accuracy= 0.72300 time= 0.01289
+Epoch: 0420 train_loss= 0.27102 train_acc= 0.97500 val_loss= 1.15317 val_acc= 0.70200 time= 0.02566
+Test results: cost= 1.15260 accuracy= 0.72000 time= 0.01265
+Epoch: 0421 train_loss= 0.29913 train_acc= 0.96667 val_loss= 1.15166 val_acc= 0.70000 time= 0.02694
+Test results: cost= 1.15177 accuracy= 0.72300 time= 0.01306
+Epoch: 0422 train_loss= 0.30113 train_acc= 0.96667 val_loss= 1.15123 val_acc= 0.69800 time= 0.02578
+Test results: cost= 1.15113 accuracy= 0.72300 time= 0.01294
+Epoch: 0423 train_loss= 0.31534 train_acc= 0.95833 val_loss= 1.15093 val_acc= 0.69400 time= 0.02568
+Test results: cost= 1.15125 accuracy= 0.72200 time= 0.01260
+Epoch: 0424 train_loss= 0.29776 train_acc= 0.97500 val_loss= 1.15164 val_acc= 0.69000 time= 0.02591
+Test results: cost= 1.15275 accuracy= 0.72200 time= 0.01262
+Epoch: 0425 train_loss= 0.27920 train_acc= 0.96667 val_loss= 1.15196 val_acc= 0.68600 time= 0.02524
+Test results: cost= 1.15416 accuracy= 0.72200 time= 0.01300
+Epoch: 0426 train_loss= 0.27588 train_acc= 0.99167 val_loss= 1.14980 val_acc= 0.69000 time= 0.02561
+Test results: cost= 1.15627 accuracy= 0.72100 time= 0.01296
+Epoch: 0427 train_loss= 0.28103 train_acc= 0.98333 val_loss= 1.15067 val_acc= 0.69000 time= 0.02653
+Test results: cost= 1.15862 accuracy= 0.71600 time= 0.01276
+Epoch: 0428 train_loss= 0.30833 train_acc= 0.96667 val_loss= 1.15036 val_acc= 0.69600 time= 0.02652
+Test results: cost= 1.15887 accuracy= 0.71500 time= 0.01255
+Epoch: 0429 train_loss= 0.31379 train_acc= 0.96667 val_loss= 1.15163 val_acc= 0.69400 time= 0.02616
+Test results: cost= 1.15886 accuracy= 0.71300 time= 0.01293
+Epoch: 0430 train_loss= 0.31973 train_acc= 0.97500 val_loss= 1.15594 val_acc= 0.69600 time= 0.02616
+Test results: cost= 1.15931 accuracy= 0.71500 time= 0.01307
+Epoch: 0431 train_loss= 0.33892 train_acc= 0.96667 val_loss= 1.15842 val_acc= 0.69800 time= 0.02594
+Test results: cost= 1.15721 accuracy= 0.71600 time= 0.01301
+Epoch: 0432 train_loss= 0.30567 train_acc= 0.96667 val_loss= 1.16119 val_acc= 0.69800 time= 0.02587
+Test results: cost= 1.15436 accuracy= 0.72100 time= 0.01292
+Epoch: 0433 train_loss= 0.29171 train_acc= 0.97500 val_loss= 1.16440 val_acc= 0.70000 time= 0.02636
+Test results: cost= 1.15292 accuracy= 0.72100 time= 0.01257
+Epoch: 0434 train_loss= 0.29153 train_acc= 0.96667 val_loss= 1.16499 val_acc= 0.70000 time= 0.02548
+Test results: cost= 1.15063 accuracy= 0.72100 time= 0.01275
+Epoch: 0435 train_loss= 0.29424 train_acc= 0.98333 val_loss= 1.16633 val_acc= 0.69200 time= 0.02580
+Test results: cost= 1.15068 accuracy= 0.72100 time= 0.01288
+Epoch: 0436 train_loss= 0.29087 train_acc= 0.98333 val_loss= 1.16586 val_acc= 0.69200 time= 0.02622
+Test results: cost= 1.14922 accuracy= 0.72100 time= 0.01279
+Epoch: 0437 train_loss= 0.30727 train_acc= 0.96667 val_loss= 1.16558 val_acc= 0.69200 time= 0.02584
+Test results: cost= 1.15051 accuracy= 0.72200 time= 0.01297
+Epoch: 0438 train_loss= 0.29788 train_acc= 0.97500 val_loss= 1.16422 val_acc= 0.69000 time= 0.02672
+Test results: cost= 1.15162 accuracy= 0.72100 time= 0.01268
+Epoch: 0439 train_loss= 0.33683 train_acc= 0.95000 val_loss= 1.16326 val_acc= 0.69000 time= 0.02532
+Test results: cost= 1.15320 accuracy= 0.72000 time= 0.01271
+Epoch: 0440 train_loss= 0.32822 train_acc= 0.96667 val_loss= 1.15804 val_acc= 0.70200 time= 0.02567
+Test results: cost= 1.15391 accuracy= 0.72000 time= 0.01289
+Epoch: 0441 train_loss= 0.28604 train_acc= 0.97500 val_loss= 1.15076 val_acc= 0.70400 time= 0.02586
+Test results: cost= 1.15349 accuracy= 0.71900 time= 0.01258
+Epoch: 0442 train_loss= 0.30569 train_acc= 0.96667 val_loss= 1.14899 val_acc= 0.70000 time= 0.02573
+Test results: cost= 1.15623 accuracy= 0.71900 time= 0.01282
+Epoch: 0443 train_loss= 0.30234 train_acc= 0.98333 val_loss= 1.14596 val_acc= 0.69600 time= 0.02583
+Test results: cost= 1.15769 accuracy= 0.71800 time= 0.01288
+Epoch: 0444 train_loss= 0.30979 train_acc= 0.98333 val_loss= 1.14221 val_acc= 0.70200 time= 0.02545
+Test results: cost= 1.15735 accuracy= 0.71900 time= 0.01257
+Epoch: 0445 train_loss= 0.29846 train_acc= 0.95833 val_loss= 1.14271 val_acc= 0.70600 time= 0.02583
+Test results: cost= 1.15820 accuracy= 0.71900 time= 0.01271
+Epoch: 0446 train_loss= 0.31917 train_acc= 0.98333 val_loss= 1.14399 val_acc= 0.71400 time= 0.02569
+Test results: cost= 1.15784 accuracy= 0.72100 time= 0.01287
+Epoch: 0447 train_loss= 0.31314 train_acc= 0.97500 val_loss= 1.14551 val_acc= 0.71400 time= 0.02575
+Test results: cost= 1.15688 accuracy= 0.72400 time= 0.01277
+Epoch: 0448 train_loss= 0.29958 train_acc= 0.98333 val_loss= 1.14639 val_acc= 0.71200 time= 0.02603
+Test results: cost= 1.15466 accuracy= 0.72800 time= 0.01257
+Epoch: 0449 train_loss= 0.29808 train_acc= 0.97500 val_loss= 1.14807 val_acc= 0.70800 time= 0.02609
+Test results: cost= 1.15342 accuracy= 0.72700 time= 0.01285
+Epoch: 0450 train_loss= 0.29357 train_acc= 0.97500 val_loss= 1.14955 val_acc= 0.70200 time= 0.02596
+Test results: cost= 1.15174 accuracy= 0.72200 time= 0.01307
+Epoch: 0451 train_loss= 0.30872 train_acc= 0.98333 val_loss= 1.15429 val_acc= 0.70200 time= 0.02617
+Test results: cost= 1.15192 accuracy= 0.72200 time= 0.01266
+Epoch: 0452 train_loss= 0.27830 train_acc= 0.99167 val_loss= 1.15985 val_acc= 0.69600 time= 0.02551
+Test results: cost= 1.15349 accuracy= 0.72100 time= 0.01277
+Epoch: 0453 train_loss= 0.29709 train_acc= 0.97500 val_loss= 1.16281 val_acc= 0.69000 time= 0.02599
+Test results: cost= 1.15331 accuracy= 0.71800 time= 0.01313
+Epoch: 0454 train_loss= 0.28561 train_acc= 0.97500 val_loss= 1.16716 val_acc= 0.69200 time= 0.02572
+Test results: cost= 1.15391 accuracy= 0.71900 time= 0.01265
+Epoch: 0455 train_loss= 0.29344 train_acc= 0.97500 val_loss= 1.17160 val_acc= 0.69400 time= 0.02597
+Test results: cost= 1.15573 accuracy= 0.71800 time= 0.01299
+Epoch: 0456 train_loss= 0.31338 train_acc= 0.96667 val_loss= 1.17821 val_acc= 0.69000 time= 0.02576
+Test results: cost= 1.16022 accuracy= 0.71700 time= 0.01280
+Epoch: 0457 train_loss= 0.31049 train_acc= 0.95833 val_loss= 1.18321 val_acc= 0.69400 time= 0.02602
+Test results: cost= 1.16405 accuracy= 0.71900 time= 0.01285
+Epoch: 0458 train_loss= 0.29620 train_acc= 0.97500 val_loss= 1.18672 val_acc= 0.69000 time= 0.02577
+Test results: cost= 1.16717 accuracy= 0.72000 time= 0.01301
+Epoch: 0459 train_loss= 0.32956 train_acc= 0.95833 val_loss= 1.18900 val_acc= 0.68800 time= 0.02585
+Test results: cost= 1.16976 accuracy= 0.71900 time= 0.01283
+Epoch: 0460 train_loss= 0.28919 train_acc= 0.98333 val_loss= 1.19053 val_acc= 0.68600 time= 0.02562
+Test results: cost= 1.17128 accuracy= 0.71700 time= 0.01267
+Epoch: 0461 train_loss= 0.31061 train_acc= 0.96667 val_loss= 1.19140 val_acc= 0.68800 time= 0.02548
+Test results: cost= 1.17202 accuracy= 0.71400 time= 0.01290
+Epoch: 0462 train_loss= 0.30027 train_acc= 0.97500 val_loss= 1.19168 val_acc= 0.68600 time= 0.02593
+Test results: cost= 1.17349 accuracy= 0.71300 time= 0.01279
+Epoch: 0463 train_loss= 0.30220 train_acc= 0.98333 val_loss= 1.19153 val_acc= 0.69000 time= 0.02609
+Test results: cost= 1.17565 accuracy= 0.71500 time= 0.01256
+Epoch: 0464 train_loss= 0.32903 train_acc= 0.95000 val_loss= 1.18669 val_acc= 0.69200 time= 0.02589
+Test results: cost= 1.17393 accuracy= 0.71600 time= 0.01290
+Epoch: 0465 train_loss= 0.34144 train_acc= 0.95833 val_loss= 1.18179 val_acc= 0.69200 time= 0.02582
+Test results: cost= 1.17163 accuracy= 0.71700 time= 0.01265
+Epoch: 0466 train_loss= 0.29855 train_acc= 0.96667 val_loss= 1.17859 val_acc= 0.69400 time= 0.02615
+Test results: cost= 1.17004 accuracy= 0.72000 time= 0.01294
+Epoch: 0467 train_loss= 0.29899 train_acc= 0.96667 val_loss= 1.17525 val_acc= 0.69400 time= 0.02535
+Test results: cost= 1.16824 accuracy= 0.72400 time= 0.01285
+Epoch: 0468 train_loss= 0.27194 train_acc= 0.98333 val_loss= 1.17259 val_acc= 0.69600 time= 0.02537
+Test results: cost= 1.16590 accuracy= 0.72500 time= 0.01273
+Epoch: 0469 train_loss= 0.32042 train_acc= 0.97500 val_loss= 1.17048 val_acc= 0.69800 time= 0.02511
+Test results: cost= 1.16336 accuracy= 0.72100 time= 0.01280
+Epoch: 0470 train_loss= 0.28995 train_acc= 0.96667 val_loss= 1.16756 val_acc= 0.69800 time= 0.02566
+Test results: cost= 1.16083 accuracy= 0.72100 time= 0.01275
+Epoch: 0471 train_loss= 0.31114 train_acc= 0.95000 val_loss= 1.16060 val_acc= 0.70000 time= 0.02569
+Test results: cost= 1.15482 accuracy= 0.72200 time= 0.01252
+Epoch: 0472 train_loss= 0.29435 train_acc= 0.97500 val_loss= 1.15579 val_acc= 0.70400 time= 0.02536
+Test results: cost= 1.15134 accuracy= 0.72200 time= 0.01306
+Epoch: 0473 train_loss= 0.28342 train_acc= 0.97500 val_loss= 1.15250 val_acc= 0.70600 time= 0.02571
+Test results: cost= 1.14957 accuracy= 0.72200 time= 0.01275
+Epoch: 0474 train_loss= 0.30993 train_acc= 0.95833 val_loss= 1.14635 val_acc= 0.70600 time= 0.02565
+Test results: cost= 1.14692 accuracy= 0.72200 time= 0.01285
+Epoch: 0475 train_loss= 0.30410 train_acc= 0.96667 val_loss= 1.14035 val_acc= 0.70800 time= 0.02556
+Test results: cost= 1.14429 accuracy= 0.72000 time= 0.01297
+Epoch: 0476 train_loss= 0.32695 train_acc= 0.96667 val_loss= 1.13896 val_acc= 0.70400 time= 0.02521
+Test results: cost= 1.14303 accuracy= 0.72000 time= 0.01291
+Epoch: 0477 train_loss= 0.28044 train_acc= 0.98333 val_loss= 1.14064 val_acc= 0.69600 time= 0.02568
+Test results: cost= 1.14340 accuracy= 0.71900 time= 0.01284
+Epoch: 0478 train_loss= 0.28191 train_acc= 0.97500 val_loss= 1.14466 val_acc= 0.69800 time= 0.02630
+Test results: cost= 1.14506 accuracy= 0.71900 time= 0.01289
+Epoch: 0479 train_loss= 0.33375 train_acc= 0.94167 val_loss= 1.15002 val_acc= 0.69800 time= 0.02600
+Test results: cost= 1.14858 accuracy= 0.72000 time= 0.01236
+Epoch: 0480 train_loss= 0.29997 train_acc= 0.96667 val_loss= 1.15485 val_acc= 0.70000 time= 0.02572
+Test results: cost= 1.15206 accuracy= 0.72100 time= 0.01298
+Epoch: 0481 train_loss= 0.30594 train_acc= 0.97500 val_loss= 1.16053 val_acc= 0.69600 time= 0.02610
+Test results: cost= 1.15666 accuracy= 0.71900 time= 0.01296
+Epoch: 0482 train_loss= 0.28730 train_acc= 0.95833 val_loss= 1.16279 val_acc= 0.69400 time= 0.02561
+Test results: cost= 1.15865 accuracy= 0.72200 time= 0.01275
+Epoch: 0483 train_loss= 0.27665 train_acc= 0.97500 val_loss= 1.16395 val_acc= 0.69600 time= 0.02609
+Test results: cost= 1.15970 accuracy= 0.72200 time= 0.01300
+Epoch: 0484 train_loss= 0.28476 train_acc= 0.96667 val_loss= 1.16417 val_acc= 0.69600 time= 0.02577
+Test results: cost= 1.16118 accuracy= 0.72200 time= 0.01255
+Epoch: 0485 train_loss= 0.28053 train_acc= 0.97500 val_loss= 1.16316 val_acc= 0.69400 time= 0.02524
+Test results: cost= 1.16139 accuracy= 0.72200 time= 0.01285
+Epoch: 0486 train_loss= 0.31260 train_acc= 0.96667 val_loss= 1.16220 val_acc= 0.69800 time= 0.02606
+Test results: cost= 1.16162 accuracy= 0.72100 time= 0.01265
+Epoch: 0487 train_loss= 0.30466 train_acc= 0.98333 val_loss= 1.16275 val_acc= 0.69200 time= 0.02610
+Test results: cost= 1.16212 accuracy= 0.72100 time= 0.01297
+Epoch: 0488 train_loss= 0.30880 train_acc= 0.97500 val_loss= 1.16403 val_acc= 0.69200 time= 0.02601
+Test results: cost= 1.16245 accuracy= 0.72400 time= 0.01290
+Epoch: 0489 train_loss= 0.30305 train_acc= 0.97500 val_loss= 1.16607 val_acc= 0.69200 time= 0.02605
+Test results: cost= 1.16358 accuracy= 0.72300 time= 0.01264
+Epoch: 0490 train_loss= 0.29670 train_acc= 0.96667 val_loss= 1.16852 val_acc= 0.69200 time= 0.02560
+Test results: cost= 1.16514 accuracy= 0.72400 time= 0.01284
+Epoch: 0491 train_loss= 0.32767 train_acc= 0.96667 val_loss= 1.16980 val_acc= 0.69600 time= 0.02561
+Test results: cost= 1.16724 accuracy= 0.72400 time= 0.01309
+Epoch: 0492 train_loss= 0.28485 train_acc= 0.98333 val_loss= 1.17106 val_acc= 0.69600 time= 0.02623
+Test results: cost= 1.16927 accuracy= 0.72000 time= 0.01293
+Epoch: 0493 train_loss= 0.28069 train_acc= 0.98333 val_loss= 1.17477 val_acc= 0.69000 time= 0.02556
+Test results: cost= 1.17320 accuracy= 0.71500 time= 0.01274
+Epoch: 0494 train_loss= 0.28354 train_acc= 0.96667 val_loss= 1.17752 val_acc= 0.68400 time= 0.02560
+Test results: cost= 1.17603 accuracy= 0.71400 time= 0.01287
+Epoch: 0495 train_loss= 0.35462 train_acc= 0.92500 val_loss= 1.17591 val_acc= 0.68600 time= 0.02588
+Test results: cost= 1.17492 accuracy= 0.71400 time= 0.01311
+Epoch: 0496 train_loss= 0.32206 train_acc= 0.96667 val_loss= 1.17614 val_acc= 0.68600 time= 0.02646
+Test results: cost= 1.17327 accuracy= 0.71300 time= 0.01279
+Epoch: 0497 train_loss= 0.27303 train_acc= 0.98333 val_loss= 1.17604 val_acc= 0.69000 time= 0.02574
+Test results: cost= 1.17055 accuracy= 0.71500 time= 0.01284
+Epoch: 0498 train_loss= 0.32150 train_acc= 0.98333 val_loss= 1.17777 val_acc= 0.69000 time= 0.02606
+Test results: cost= 1.16972 accuracy= 0.71600 time= 0.01272
+Epoch: 0499 train_loss= 0.29393 train_acc= 0.97500 val_loss= 1.17844 val_acc= 0.68400 time= 0.02580
+Test results: cost= 1.16949 accuracy= 0.71400 time= 0.01269
+Epoch: 0500 train_loss= 0.26894 train_acc= 0.97500 val_loss= 1.17947 val_acc= 0.68800 time= 0.02589
+Test results: cost= 1.17021 accuracy= 0.71500 time= 0.01297
+best epoch: 263
+best test: 0.7189996
+Optimization Finished!
